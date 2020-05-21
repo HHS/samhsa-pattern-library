@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Global Header - Large Screens
+title: Breadcrumbs
 section: global-component
 permalink: "/breadcrumbs/"
 ---
