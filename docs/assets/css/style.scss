@@ -4,6 +4,72 @@
 @import "{{ site.theme }}";
 
 
+// ------ Styles
+$charcoal: #4A4A4A;
+$steel: #5F636A;
+$smoke: #CDCDCD;
+$fog: #A3A7A9;
+$silver: #DDDDDD;
+$mist: #EEEEEE;
+$white: #FFFFFF;
+$teal: #1A6986;
+$teal-80: #3C7F98;
+$teal-60: #5E96AA;
+$teal-40: #8CB4C2;
+$teal-20: #BAD2DA;
+$midnight: #1E384B;
+$midnight-80: #405666;
+$midnight-60: #617381;
+$midnight-40: #8E9BA5;
+$midnight-20: #BBC3C9;
+$ruby: #A82D2B;
+$crimson: #CD3835;
+$crimson-60: #D45653;
+$crimson-40: #DC7371;
+$crimson-20: #E69B9A;
+$cerulean: #5191CD;
+$cerulean-80: #85BCE4;
+$cerulean-60: #9DC9E9;
+$cerulean-40: #C2DDF1;
+$cerulean-20: #DAEAF6;
+$sapphite: #1F419A;
+$success: #0f9d58;
+
+// - format styles for library
+.boxes-colors{ display: flex; flex-direction: row; flex-wrap: wrap; }
+.box-colors-wrap { padding: 10px; }
+.box-colors { height: 100px; width: 100px; }
+.midnight-back { background-color: $midnight; }
+.midnight-80-back { background-color: $midnight-80; }
+.midnight-60-back { background-color: $midnight-60; }
+.midnight-40-back { background-color: $midnight-40; }
+.midnight-20-back { background-color: $midnight-20; }
+.teal-back { background-color: $teal; }
+.teal-80-back { background-color: $teal-80; }
+.teal-60-back { background-color: $teal-60; }
+.teal-40-back { background-color: $teal-40; }
+.teal-20-back { background-color: $teal-20; }
+.cerulean-back { background-color: $cerulean; }
+.cerulean-80-back { background-color: $cerulean-80; }
+.cerulean-60-back { background-color: $cerulean-60; }
+.cerulean-40-back { background-color: $cerulean-40; }
+.cerulean-20-back { background-color: $cerulean-20; }
+.charcoal-back { background-color: $charcoal; }
+.steel-back { background-color: $steel; }
+.ruby-back { background-color: $ruby; }
+.crimson-back { background-color: $crimson; }
+.crimson-60-back { background-color: $crimson-60; }
+.crimson-40-back { background-color: $crimson-40; }
+.crimson-20-back { background-color: $crimson-20; }
+.sapphite-back { background-color: $sapphite; }
+.smoke-back { background-color: $smoke; }
+.silver-back { background-color: $silver; }
+.mist-back { background-color: $mist; }
+.fog-back { background-color: $fog; }
+.white-back { background-color: $white; border: 1px solid #000; }
+.success-back { background-color: $success; }
+
+
 // ------ Components
 // breadcrumbs
 .breadcrumb  ol {
