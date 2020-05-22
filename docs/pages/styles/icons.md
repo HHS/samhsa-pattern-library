@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Font Awesome Icons
 section: styles
 permalink: "/icons/"
