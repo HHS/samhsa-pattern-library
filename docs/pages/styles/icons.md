@@ -4,9 +4,7 @@ title: Font Awesome Icons
 section: styles
 permalink: "/icons/"
 ---
-{%  for file in site.static_files %}
-  {{ file.path }} <br />
-{% endfor %}
+
 
 ## Font Awesome
 
@@ -14,7 +12,7 @@ The following is a list of the most common icons used on in design patterns.
 
 <div class="boxes-icons">
   <div class="box-icons-wrap">
-    <img src="assets/img/chevron-up.svg" /><br />
+    <img src="{{ {{ BASE_PATH }}/assets/img/chevron-up.svg" /><br />
     fa-chevron-up
   </div>
   <div class="box-icons-wrap">
