@@ -36,6 +36,7 @@ $sapphite: #1F419A;
 $success: #0f9d58;
 
 // - format styles for library
+// colors
 .boxes-colors{ display: flex; flex-direction: row; flex-wrap: wrap; }
 .box-colors-wrap { padding: 10px; }
 .box-colors { height: 100px; width: 100px; }
@@ -68,6 +69,11 @@ $success: #0f9d58;
 .fog-back { background-color: $fog; }
 .white-back { background-color: $white; border: 1px solid #000; }
 .success-back { background-color: $success; }
+
+// Icons
+.boxes-icons{ display: flex; flex-direction: row; flex-wrap: wrap; }
+.box-icons-wrap { padding: 15px; }
+.box-icons-wrap img{ max-width: 55px; max-height: 55px; }
 
 
 // ------ Components
