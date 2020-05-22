@@ -16,7 +16,7 @@ The following is a list of the most common icons used on in design patterns.
     fa-chevron-up
   </div>
   <div class="box-icons-wrap">
-    <img src="/assets/img/chevron-down.svg {{ | append: site.github.build_revision | relative_url}}" /><br />
+    <img src="/assets/img/chevron-down.svg" /><br />
     fa-chevron-down
   </div>
   <div class="box-icons-wrap">
