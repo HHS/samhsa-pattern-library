@@ -12,7 +12,7 @@ The following is a list of the most common icons used on in design patterns.
 
 <div class="boxes-icons">
   <div class="box-icons-wrap">
-    <img src="assets/img/chevron-up.svg" /><br />
+    <img src="../../assets/img/chevron-up.svg" /><br />
     fa-chevron-up
   </div>
   <div class="box-icons-wrap">
@@ -20,14 +20,11 @@ The following is a list of the most common icons used on in design patterns.
     fa-chevron-down
   </div>
   <div class="box-icons-wrap">
-    <span style="font-size: 3em; color: #000000;">
-      <i class="fas fa-chevron-right"></i>
-    </span>
-    <img src="/assets/img/chevron-right.svg" /><br />
+    <i class="fas fa-chevron-right"></i><br />
     fa-chevron-right
   </div>
   <div class="box-icons-wrap">
-    <img src="/assets/img/chevron-left.svg" /><br />
+    <i class="fas fa-chevron-left"></i><br />
     fa-chevron-left
   </div>
   <div class="box-icons-wrap">
