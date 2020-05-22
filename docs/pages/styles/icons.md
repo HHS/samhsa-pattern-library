@@ -11,11 +11,7 @@ The following is a list of the most common icons used on in design patterns.
 
 <div class="boxes-icons">
   <div class="box-icons-wrap">
-<<<<<<< HEAD
     <img src="{{ base.url }}/assets/img/chevron-up.svg" /><br />
-=======
-    <img src={{ site.url }}"/assets/img/chevron-up.svg" /><br />
->>>>>>> 625ad88d097f6176e1dcac5e4eca99a3140d6419
     fa-chevron-up
   </div>
   <div class="box-icons-wrap">
