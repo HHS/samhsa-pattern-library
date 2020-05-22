@@ -12,15 +12,15 @@ The following is a list of the most common icons used on in design patterns.
 
 <div class="boxes-icons">
   <div class="box-icons-wrap">
-    ![chevron-up]({{ BASE_PATH }}/assets/img/chevron-up.svg)
-    <img src="{{ BASE_PATH }}/assets/img/chevron-up.svg" /><br />
+    <img src="{{ BASE_PATH }}assets/img/chevron-up.svg" /><br />
     fa-chevron-up
   </div>
   <div class="box-icons-wrap">
-    <img src="/assets/img/chevron-down.svg" /><br />
+    <img src="/assets/img/chevron-down.svg {{ | append: site.github.build_revision | relative_url}}" /><br />
     fa-chevron-down
   </div>
   <div class="box-icons-wrap">
+    <i class="fas fa-address-card"></i>
     <img src="/assets/img/chevron-right.svg" /><br />
     fa-chevron-right
   </div>
