@@ -4,6 +4,9 @@ title: Font Awesome Icons
 section: styles
 permalink: "/icons/"
 ---
+{%  for file in site.static_files %}
+  {{ file.path }} <br />
+{% endfor %}
 
 ## Font Awesome
 
