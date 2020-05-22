@@ -12,7 +12,7 @@ The following is a list of the most common icons used on in design patterns.
 
 <div class="boxes-icons">
   <div class="box-icons-wrap">
-    ![cheron-up]({{ BASE_PATH }}/assets/img/chevron-up.svg)
+    ![chevron-up]({{ BASE_PATH }}/assets/img/chevron-up.svg)
     <img src="{{ BASE_PATH }}/assets/img/chevron-up.svg" /><br />
     fa-chevron-up
   </div>
