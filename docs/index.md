@@ -1,4 +1,6 @@
 ---
 layout: default
 ---
-# Hello World
+# This is a work in progress!!
+
+  {% include compontents-nav.html %}

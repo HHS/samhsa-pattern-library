@@ -1,0 +1,26 @@
+<div class="nav compontent-nav">
+<ul>
+  <li class="level-1"><a href="/colors">Styles</a></li>
+    {% if page.section == "styles" %}
+    <ul>
+      <li class="level-2"><a href="/colors">Colors</a></li>
+      <li class="level-2"><a href="/Typography">Typography</a></li>
+      <li class="level-2"><a href="/icons">Icons</a></li>
+      <li class="level-2"><a href="/logos">Logos</a></li>
+    </ul>
+    {% endif %}
+  <li class="level-1">Elements</li>
+  <li class="level-1">Global Components</li>
+  {% if page.section == "global-component" %}
+    <ul>
+      <li class="level-2">Desktop Header</li>
+      <li class="level-2">Mobile Header</li>
+      <li class="level-2">Teritary Nav</li>
+      <li class="level-2">Responsive Footer</li>
+      <li class="level-2"><a href="/breadcrumbs">Breadcrumbs</a></li>
+      <li class="level-2">Pagination</li>
+    </ul>
+    {% endif %}
+  <li class="level-1">Components</li>
+</ul>
+</div>

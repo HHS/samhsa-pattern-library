@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Breadcrumbs
+category: component
 section: global-component
 permalink: "/breadcrumbs/"
 ---

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: SAMHSA Logos
+category: component
 section: styles
 permalink: "/logos/"
 ---
