@@ -13,8 +13,8 @@
     <![endif]-->
   </head>
   <body>
-    <h1> THIS IS THE PAGE TEMPLATE </h1>
     <div class="wrapper">
+      Test
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
@@ -41,7 +41,7 @@
         {% endif %}
       </header>
       <section>
-
+        <h1> {{ page.title }}</h1>
       {{ content }}
 
       </section>

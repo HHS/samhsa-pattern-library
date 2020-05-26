@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: SAMHSA Logos
 section: styles
 permalink: "/logos/"

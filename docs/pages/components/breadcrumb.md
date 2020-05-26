@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Breadcrumbs
 section: global-component
 permalink: "/breadcrumbs/"
