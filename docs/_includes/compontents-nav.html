@@ -1,7 +1,7 @@
 <div class="nav compontent-nav">
 <ul>
   <li class="level-1"><a href="/colors">Styles</a></li>
-    {% if page.section == "styles" %}
+    {% if page.section == "styles" or page.section == "home" %}
     <ul>
       <li class="level-2"><a href="/colors">Colors</a></li>
       <li class="level-2"><a href="/Typography">Typography</a></li>
@@ -11,7 +11,7 @@
     {% endif %}
   <li class="level-1">Elements</li>
   <li class="level-1">Global Components</li>
-  {% if page.section == "global-component" %}
+  {% if page.section == "global-component" or page.section == "home"%}
     <ul>
       <li class="level-2">Desktop Header</li>
       <li class="level-2">Mobile Header</li>
