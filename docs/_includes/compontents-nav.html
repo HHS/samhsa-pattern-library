@@ -1,9 +1,10 @@
 <div class="nav compontent-nav">
+  test
 <ul>
   <li class="level-1"><a href="{{ site.url }}/colors">Styles</a></li>
     {% if page.section == "styles" or page.section == "home" %}
     <ul>
-      <li class="level-2"><a href="/colors">Colors</a></li>
+      <li class="level-2"><a href="{{ '/colors' | relative_url }}">Colors</a></li>
       <li class="level-2"><a href="/Typography">Typography</a></li>
       <li class="level-2"><a href="/icons">Icons</a></li>
       <li class="level-2"><a href="/logos">Logos</a></li>
