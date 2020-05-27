@@ -9,7 +9,7 @@ permalink: "/typography/"
 
 ![Tahoma Font Face](../assets/img/tahoma.png)
 
-The current text styles uses [Tahoma](https://www.fonts.com/font/microsoft-corporation/tahoma) as its typeface. Verdana and Segoe are also a part of SAMHSA's font stack.
+The current text styles uses [Tahoma](https://www.fonts.com/font/microsoft-corporation/tahoma) ![external link](../assets/img/ext-link.png) as its typeface. Verdana and Segoe are also a part of SAMHSA's font stack.
 
 ### Text alignment
 While right-aligned, centered, and justified text have their place, most websites benefit from a consistent use of left-aligned text. Justified text, common in print, does not yet display well enough in a web browser to be considered a best practice.
@@ -35,9 +35,9 @@ The optimal line length for your body text is considered to be 50-60 characters 
 
 More reading on Responsive Typography:
 
-[A More Modern Scale for Web Typography](https://typecast.com/blog/a-more-modern-scale-for-web-typography)
+[A More Modern Scale for Web Typography](https://typecast.com/blog/a-more-modern-scale-for-web-typography) ![external link](../assets/img/ext-link.png)
 
-[https://github.com/twbs/rfs#how-does-it-work](https://github.com/twbs/rfs#how-does-it-work)
+[https://github.com/twbs/rfs#how-does-it-work](https://github.com/twbs/rfs#how-does-it-work) ![external link](../assets/img/ext-link.png)
 
 ## Specifications
 
@@ -75,7 +75,12 @@ Example - [Link to external site](#) ![external link](../assets/img/ext-link.png
 Download links start with a document icon and ends with the file type and size.
 Example - ![external link](../assets/img/file-pdf.png) [Download this document (PDF | 12.5KB)](#)
 
+## Form Type styles
+### Input
+**All Screens** Family: Tahoma 400 - Size: 16px - Line Height: 0px
 
+### Buttons
+**All Screens** Family: Tahoma 700 - Size: 16px - Line Height: 18px
 
 ## Prose example
 

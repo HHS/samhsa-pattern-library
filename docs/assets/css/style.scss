@@ -1,7 +1,7 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+//@import "{{ site.theme }}";
 
 
 // ------ Styles
@@ -35,12 +35,75 @@ $cerulean-20: #DAEAF6;
 $sapphite: #1F419A;
 $success: #0f9d58;
 
+/* Typography */
+body {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: 'Tahoma','Verdana', sans-serif;
+  color: $charcoal;
+}
+
+h1 {
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: 700;
+  @media(min-width: 700px ){
+    font-size: 32px;
+    line-height: 34px;
+  }
+}
+
+h2 {
+    font-size: 23px;
+    line-height: 25px;
+    font-weight: 700;
+  @media(min-width: 700px ){
+    font-size: 28px;
+    line-height: 30px;
+  }
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+  @media(min-width: 700px ){
+    font-size: 21px;
+    line-height: 23px;
+  }
+}
+
+h4 {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+}
+
+a {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  color: $sapphite;
+  text-decoration: none;
+}
+a:hover {
+    color: $ruby;
+ }
+
+input {
+  font-size: 16px;
+  line-height: 0px;
+  font-weight: 400;
+}
+
 // - format styles for library
 // layout
 .pattern-example {}
 // .col-row { display: flex; flex-direction: row; }
 // .col-50 { width: 46%; padding: 2%;}
 
+code { font-family: Consolas, "Andale Mono WT"; background-color: $mist; padding: 2px; }
 // colors
 .boxes-colors{ display: flex; flex-direction: row; flex-wrap: wrap; }
 .box-colors-wrap { padding: 10px; }
