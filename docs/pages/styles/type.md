@@ -6,10 +6,12 @@ section: styles
 permalink: "/typography/"
 ---
 ## Typeface
+
 ![Tahoma Font Face](../assets/img/tahoma.png)
+
 The current text styles uses [Tahoma](https://www.fonts.com/font/microsoft-corporation/tahoma) as its typeface. Verdana and Segoe are also a part of SAMHSA's font stack.
 
-###Text alignment
+### Text alignment
 While right-aligned, centered, and justified text have their place, most websites benefit from a consistent use of left-aligned text. Justified text, common in print, does not yet display well enough in a web browser to be considered a best practice.
 
 Set type flush left. Type set flush left provides the eye a constant starting point for each line, making text easier to read.
@@ -37,22 +39,48 @@ More reading on Responsive Typography:
 
 [https://github.com/twbs/rfs#how-does-it-work](https://github.com/twbs/rfs#how-does-it-work)
 
-## Example Prose
+## Specifications
 
-<div class="pattern-example">
-  <div class="col-left">
-    <h4>Body</h4>
-    <p>Family: Tahoma 400 <br />
-      Size: 15px <br />
-      Line Height: 20px <br />
-    </p>
-  </div>
-  
-  <div class="col-right">
-    The quick brown fox jumps over the lazy dog.
-  </div>
-</div>
+### H1
+**Small Screens** Family: Tahoma 700 - Size: 28px - Line Height: 30px
+
+**Large Screens** Family: Tahoma 700 - Size: 32px - Line Height: 34px
+
+### H2
+**Small Screens** Family: Tahoma 700 - Size: 23px - Line Height: 25px
+
+**Large Screens** Family: Tahoma 700 - Size: 28px - Line Height: 30px
+
+### H3
+**Small Screens** Family: Tahoma 700 - Size: 18px - Line Height: 20px
+
+**Large Screens** Family: Tahoma 700 - Size: 21px - Line Height: 23px
+
+### H4
+**All Screens** Family: Tahoma 700 - Size: 16px - Line Height: 18px
+
+### Body
+**All Screens** Family: Tahoma 400 - Size: 15px - Line Height: 20px
+
+### Title Links
+**All Screens** Family: Tahoma 400 - Size: 18px - Line Height: 22px
+
+### Links
+**All Screens** Family: Tahoma 400 - Size: 15px - Line Height: 20px
+
+External Links end with an external link.
+
+Example - [Link to external site](#) ![external link](../assets/img/ext-link.png)
+
+Download links start with a document icon and ends with the file type and size.
+Example - ![external link](../assets/img/file-pdf.png) [Download this document (PDF | 12.5KB)](#)
 
 
 
-</div>
+## Prose example
+
+<h1> Alice's Aventures in Wonderland</h1>
+<h2>Chapter 1</h2>
+<h3>Down the Rabbit Hole</h3>
+<h4>The rabbit-hole went straight on like a tunnel for some way, and then dipped suddenly down, so suddenly that Alice had not a moment to think about stopping herself before she found herself falling down a very deep well.</h4>
+<p>Either the well was very deep, or she fell very slowly, for she had plenty of time as she went down to look about her and to wonder what was going to happen next. First, she tried to look down and make out what she was coming to, but it was too dark to see anything; then she looked at the sides of the well, and noticed that they were filled with cupboards and book-shelves; here and there she saw maps and pictures hung upon pegs. She took down a jar from one of the shelves as she passed; it was labelled “ORANGE MARMALADE”, but to her great disappointment it was empty: she did not like to drop the jar for fear of killing somebody underneath, so managed to put it into one of the cupboards as she fell past it.</p>
