@@ -50,14 +50,14 @@ The following is a list of the most common icons used on in design patterns.
   </div>
 </div>
 
-A full list of icons can be found on the [Font Awesome](https://fontawesome.com/icons?d=gallery) ![external link](../assets/img/ext-link.png) site.
+A full list of icons can be found on the {% include snippets/ext-link.html url="https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility" text="Accessibility with Font Awesome" %} site.
 
 ## Usability guidance
-See Icon Usability - [Nielsen Norman Group](https://www.nngroup.com/articles/icon-usability/) ![external link](../assets/img/ext-link.png).
+See Icon Usability - {% include snippets/ext-link.html url="https://www.nngroup.com/articles/icon-usability/" text="Nielsen Norman Group" %} .
 
 ## Accessibility
 Provide descriptive text when an icon is meaningful or has an action associated with it. Do not provide additional text when the icon is decorative.
-Check here for more on [Accessibility with Font Awesome](https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility) ![external link](../assets/img/ext-link.png).
+Check here for more on {% include snippets/ext-link.html url="https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility" text="Accessibility with Font Awesome" %} .
 
 ### Implementation
-More information here on how to add [Font Awesome](https://fontawesome.com/how-to-use/on-the-web/setup/getting-started?using=web-fonts-with-css) ![external link](../assets/img/ext-link.png) to your project.
+More information here on how to add {% include snippets/ext-link.html url="ttps://fontawesome.com/how-to-use/on-the-web/setup/getting-started?using=web-fonts-with-css" text="Font Awesome" %} .

@@ -28,13 +28,14 @@ Breadcrumbs are used on breakpoints large and greater. The are displayed on all 
 * There is no need to assign special keyboard functions using this code.
 
 ## Accessibility
-There is not HTML property for breadcrumbs. So to help make the usuable for screen readers, it is recommended that these guidelines are followed.
+There is not HTML property for breadcrumbs. So to help make them usuable for screen readers, it is recommended that these guidelines are followed.
 * Use the ```<nav>``` property to call out the navigational element.
 * Use area labels to name both the element as a whole ```<nav aria-label="breadcrumbs">``` and to show the current page ```<li aria-current="location">```
 * Make the divider a decorative element by putting it inside the CSS.
 
 ## Code
 ### HTML
+
 ```
 <nav class="breadcrumb" aria-label="breadcrumbs">
   <ol>

@@ -1,0 +1,18 @@
+.page-content {
+  @media screen and (min-width: $medium-breakpoint){
+    display: flex;
+    flex-flow: c
+    olumn no-wrap;
+    margin-left: 2%;
+  }
+}
+.section-nav {
+  @media screen and (min-width: $medium-breakpoint){
+    width: 15%; padding-right: 5%;
+  }
+}
+.section-content {
+  @media screen and (min-width: $medium-breakpoint){
+    max-width: 700px;
+  }
+}
