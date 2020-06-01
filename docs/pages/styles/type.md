@@ -27,7 +27,7 @@ Just as elements of a page are adjusted for the screen size, type face adjust al
 
 For usability and easy for reading, a maximum reading width should be used.
 
-Maximum reading width: 70 characters wide. (Based on chosen font)
+Maximum reading width: ~75 characters wide. (Based on chosen font)
 
 Creating a maximum reading width is more than just a visual design choice, it is import for usability and ease of reading. If the text is too long, thereaders eyes will have a hard time focusing on the text. This is because the line length makes it difficult to gauge where the line starts and ends. Furthermore it can be difficult to continue onto the correct line in large blocks of text. If a line is too short the eye will have to travel back too often, breaking the reader’s rhythm. Too short lines also tend to stress readers, making them begin on the next line before finishing the current one (hence skipping potentially important words).
 

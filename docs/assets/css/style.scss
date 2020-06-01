@@ -4,7 +4,8 @@
 //@import "{{ site.theme }}";
 // breakpoints
 $medium-breakpoint: 800px;
-
+// global image fix
+img {max-width: 95%; height: auto;}
 
 // ------ Styles
 {% include css/base/colors.scss %}
