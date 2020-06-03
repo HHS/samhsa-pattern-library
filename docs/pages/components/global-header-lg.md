@@ -36,7 +36,7 @@ This global component applies to desktop versions of the SAMHSA website. (View t
 
 3. [Logo]({{ site.url }}/logos)
 4. Global Search / Local Search
-   On the SAMHSA main site, this search box is used to search the global main site. However, for some sites the search uses a local search, for instance on the Data Page and the SAMHSA store. This difference is decided on a case by case bases.
+   On the SAMHSA main site, this search box is used to search the global main site. However, for some sites the search uses a local search, for instance on the Data Page and the SAMHSA store. This difference is decided on a case by case bases. (see the [search widget pattern]({{ site.url }}/search)) for more information.
 
 5. Main Menu
   **Functionality**
