@@ -48,6 +48,7 @@ This global component applies to desktop versions of the SAMHSA website. (View t
 OnHover of the main menu items, the submenus slide open. OnClick of submenu item,the target page is displayed in main window. Please not that the Find Treatment and About Us menu have more content. Please see those sections below.
 ### Example shows the Public Messages menu
 _See table below for list of links_
+
 ![Find Treatment Menu](../assets/img/header/messages.png)
 
 <a name="location"></a>

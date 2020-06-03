@@ -66,6 +66,7 @@ _The user should not be able to interact with anything below the menu when the m
 **Added Fuctionality**
 - Back Button. OnTap of the "back" button, the menu slides left to one level above the the current menu section.
 _Example shows the Data Page menu_
+
 ![Data Menu](../assets/img/header/sm/data.png)
 
 <a name="location"></a>
