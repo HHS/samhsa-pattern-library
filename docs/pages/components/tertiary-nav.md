@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Teritary Navigation
+title: Tertiary Navigation
 category: component
 section: global-component
 permalink: "/teritary-nav/"
 ---
 
 ## Overview
-The Teritary Nav is displayed in the left rail on the large and medium breakpoints. It is not used on medium and small breakpoints.
+The Tertiary Nav is displayed in the left rail on the large and medium breakpoints. It is not used on medium and small breakpoints.
 
 ![Teritary Nav](../assets/img/header/ter-nav.png)
 
