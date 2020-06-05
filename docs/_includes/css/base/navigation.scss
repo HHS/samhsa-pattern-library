@@ -1,0 +1,48 @@
+/***** Tertiary Navigation *****/
+
+/* level 1 */
+.nav-section-link {
+  background-color: $ruby;
+  font-size: 14px;
+  font-weight: bold;
+  color: $white;
+  padding: 15px;
+  margin-bottom: 2px;
+}
+
+/* level 2 */
+.nav-secondary-link {
+  background-color: $smoke;
+  font-size: 14px;
+  font-weight: regular;
+  color: $charcoal;
+  padding: 15px;
+  margin-bottom: 2px;
+  &:active {
+    font-weight: bold;
+  }
+}
+
+/* level 3 */
+.nav-tertiary-link {
+  background-color: $mist;
+  font-size: 14px;
+  font-weight: regular;
+  color: $charcoal;
+  padding: 15px;
+  &:active {
+    font-weight: bold;
+  }
+}
+
+/* level 4 */
+.nav-quaternary-link {
+  background-color: $mist;
+  font-size: 14px;
+  font-weight: regular;
+  color: $charcoal;
+  padding: 15px 0px 15px 30px;
+  &:active {
+    font-weight: bold;
+  }
+}
