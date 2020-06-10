@@ -6,11 +6,11 @@ section: styles
 permalink: "/logos/"
 ---
 
-Find standards for using and displaying variants of the SAMHSA logo in print and electronic media.
+Standards for using and displaying variants of the SAMHSA logo in print and electronic media. For information about the use of the HHS logo, please see their [documentation](https://www.hhs.gov/web/policies-and-standards/web-policies/logo-seal-and-symbol-policies/index.html).
 
 The SAMHSA logo was updated in February, 2018 and includes only the agency name and acronym. The mailing address, phone number and website URL no longer appear as part of the logo design. Phone numbers and URL must be included elsewhere in all materials. The mailing address is optional and should be based on necessity.
 
-Products that are to be released publicly must be cleared through the SAMHSA Office of Communications. The SAMHSA logo is to appear in **black** or reflex blue (Pantone Matching System (PMS) 1F419A R0, G0, B153) against a light b​ackground or in white against a dark background. See the SAMHSA Style Guide or contact Gus Lodato at [august.lodato@samhsa.hhs.gov​](mailto:august.lodato@samhsa.hhs.gov) or 240-276-2125 with questions about using the SAMHSA logo.
+Products that are to be released publicly must be cleared through the SAMHSA Office of Communications. The SAMHSA logo is to appear in **black** or reflex blue (Pantone Matching System (PMS) 1F419A R0, G0, B153) against a light b​ackground or in white against a dark background. See the SAMHSA Style Guide or contact Gus Lodato at [webmaster@samhsa.hhs.gov​](mailto:webmaster@samhsa.hhs.gov) with questions about using the SAMHSA logo.
 
 ![SAMHSA Logos](../assets/img/SAMHSA_logo.png)
 [EPS (9.04 MB).ps](../assets/img/EPS_(9.04_MB).ps)
