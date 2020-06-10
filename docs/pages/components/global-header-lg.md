@@ -67,6 +67,8 @@ In addition to the submenu links...
 - Descriptive text: "Elinore McCance-Katz, M.D., Ph.D., Assistant Secretary for Mental Health and Substance Use"
 - Link to biography: "View full biography" - links to [https://www.samhsa.gov/about-us/who-we-are/leadership/biographies/elinore-mccance-katz](https://www.samhsa.gov/about-us/who-we-are/leadership/biographies/elinore-mccance-katz)
 
+![About Us Menu](../assets/img/header/aboutus.png)
+
 <a name="accessibility"></a>
 ## Accessibility & Multidevice
 ### Accessibility
