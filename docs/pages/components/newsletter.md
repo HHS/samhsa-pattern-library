@@ -13,9 +13,11 @@ The new SAMHSA newsletter module is meant to be a fast, 1-step signup process fo
 
 ![Newsletter small screen](../assets/img/footer/sm-newsletter.png)
 
+
 **Large & Extra Large Screens**
 
 ![Newsletter large screen](../assets/img/footer/lg-newsletter.png)
+
 
 ### Functionality
 **Input Box**
