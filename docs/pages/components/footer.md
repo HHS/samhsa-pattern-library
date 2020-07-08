@@ -78,9 +78,11 @@ For "|" – please use CSS rather than creating a physical pike, because of 508 
 <a name="text"></a>
 ## Footer text
 Content:
-  "SAMHSA's mission is to reduce the impact of substance abuse and mental illness of America's communities."
-  "500 Fishers Lane, Rockville, MD 20857
-  1-877-SAMHSA-7 (1-877-726-4727)
+
+-  "SAMHSA's mission is to reduce the impact of substance abuse and mental illness of America's communities."
+
+-  "5600 Fishers Lane, Rockville, MD 20857
+  1-877-SAMHSA-7 (1-877-726-4727)""
 
 <a name="icons"></a>
 ## Footer Icons
