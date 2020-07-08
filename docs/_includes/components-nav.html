@@ -1,0 +1,41 @@
+<div id="side-menu" class="nav side-menu element-nav">
+  <h2><a href="/" title="SAMHSA Pattern Library">SAMHSA Pattern Library</a></h2>
+  <ul class="menu">
+    <li class="menu-item level-1"><a href="{{ '/colors' | relative_url }}">Styles</a></li>
+    {% if page.section == "styles" or page.section == "home" %}
+    <ul>
+      <li class="menu-item level-2"><a href="{{ '/colors' | relative_url }}">Colors</a></li>
+      <li class="menu-item level-2"><a href="{{ '/typography' | relative_url }}">Typography</a></li>
+      <li class="menu-item level-2"><a href="{{ '/icons' | relative_url }}">Icons</a></li>
+      <li class="menu-item level-2"><a href="{{ '/logos' | relative_url }}">Logos</a></li>
+    </ul>
+    {% endif %}
+    <li class="level-1 menu-item"><a href="{{ '/buttons' | relative_url }}">Elements</a></li>
+    {% if page.section == "elements" or page.section == "home"%}
+    <ul>
+      <li class="menu-item level-2"><a href="{{ '/buttons' | relative_url }}">Buttons</a></li>
+    </ul>
+    {% endif %}
+    <li class="menu-item level-1"><a href="{{ '/global-header-lg' | relative_url }}">Global Components</a></li>
+    {% if page.section == "global-component" or page.section == "home"%}
+    <ul>
+      <li class="level-2"><a href="{{ '/html-head' | relative_url }}">HTML HEAD</a></li>
+      <li class="menu-item level-2"><a href="{{ '/global-header-lg' | relative_url }}">Desktop Header</a></li>
+      <li class="menu-item level-2"><a href="{{ '/global-header-sm' | relative_url }}">Mobile Header</a></li>
+      <li class="menu-item level-2"><a href="{{ '/teritary-menu' | relative_url }}">Teritary Menu</a></li>
+      <li class="menu-item level-2"><a href="{{ '/teritary-nav' | relative_url }}">Teritary Nav</a></li>
+      <li class="level-2"><a href="{{ '/page-titles' | relative_url }}">Page Titles</a></li>
+      <li class="menu-item level-2"><a href="{{ '/footer' | relative_url }}">Responsive Footer</a></li>
+      <li class="menu-item level-2"><a href="{{ '/breadcrumbs' | relative_url }}">Breadcrumbs</a></li>
+      <li class="menu-item level-2"><a href="{{ #' | relative_url }}">Pagination</a></li>
+    </ul>
+    {% endif %}
+  <li class="menu-item level-1 menu-item--active"><a href="{{ '/samhsa-newsletter' | relative_url }}">Components</a></li>
+  {% if page.section == "component" or page.section == "home"%}
+    <ul>
+      <li class="menu-item level-2"><a href="{{ '/samhsa-newsletter' | relative_url }}">SAMHSA Newsletter</a></li>
+    </ul>
+  {% endif %}
+</ul>
+  </ul>
+</div>

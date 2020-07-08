@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Colors
-category: component
+category: styles
 section: styles
 permalink: "/colors/"
 ---

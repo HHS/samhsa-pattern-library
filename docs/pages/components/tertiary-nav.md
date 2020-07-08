@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tertiary Navigation
-category: component
+category: global-component
 section: global-component
 permalink: "/teritary-nav/"
 ---

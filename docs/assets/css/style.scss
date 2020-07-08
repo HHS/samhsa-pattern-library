@@ -11,6 +11,8 @@ img {max-width: 95%; height: auto;}
 {% include css/base/colors.scss %}
 {% include css/base/type.scss %}
 {% include css/base/navigation.scss %}
+{% include css/base/buttons.scss %}
+{% include css/base/tertiary-menu.scss %}
 
 // - format styles for library
 // layout
@@ -23,3 +25,4 @@ img {max-width: 95%; height: auto;}
 
 // ------ Components
 {% include css/patterns/breadcrumbs.scss %}
+{% include css/patterns/card.scss %}

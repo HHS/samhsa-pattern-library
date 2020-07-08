@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Global Header - Small Screens
-category: component
+category: global-component
 section: global-component
 permalink: "/global-header-sm/"
 ---

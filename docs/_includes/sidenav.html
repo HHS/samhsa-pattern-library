@@ -1,3 +1,19 @@
+{% if page.category == "default" %}
+{% include default-nav.html %}
+{% endif %}
+
 {% if page.category == "component" %}
-  {% include compontents-nav.html %}
+{% include components-nav.html %}
+{% endif %}
+
+{% if page.section == "global-component" %}
+{% include global-components-nav.html %}
+{% endif %}
+
+{% if page.category == "elements" %}
+{% include elements-nav.html %}
+{% endif %}
+
+{% if page.category == "styles" %}
+{% include styles-nav.html %}
 {% endif %}

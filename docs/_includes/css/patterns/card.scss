@@ -1,0 +1,17 @@
+// Card Classes -->
+// this class helps to contain the card using a container -- it is an example only
+.card-container {
+  max-width: 320px;
+  padding: 2px;
+  margin: 15px;
+}
+
+.card-short {}
+.card-title {
+    font-size: 18px;
+    padding: 0;
+  }
+.card-body {
+  padding: 0;
+  color: $charcoal /*rgb(74, 74, 74);*/
+}

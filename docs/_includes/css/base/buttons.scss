@@ -1,0 +1,94 @@
+/* Buttons */
+.btn {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 15px 20px;
+  margin: 5px;
+  @media screen and (max-width: $medium-breakpoint){
+    width: 98%;
+    margin: 0 0 20px 0;
+  }
+}
+
+.primary-button-1 {
+  background-color: $teal;
+  color: $white;
+  border: none;
+}
+
+.primary-button-1:hover {
+  background-color: $steel;
+}
+
+.primary-button-2 {
+  background-color: $midnight;
+  color: $white;
+  border: none;
+}
+
+.primary-button-2:hover {
+  background-color: $charcoal;
+}
+
+.secondary-button-1 {
+  background-color: $white;
+  color: $teal;
+  border: solid 1px $teal;
+}
+
+.secondary-button-1:hover {
+  color: $steel;
+  border: solid 1px $steel;
+}
+
+.secondary-button-2 {
+  background-color: $white;
+  color: $midnight;
+  border: solid 1px $midnight;
+}
+
+.secondary-button-2:hover {
+  color: $charcoal;
+  border: solid 1px $charcoal;
+}
+
+.inverted-button-1 {
+  background-color: $teal;
+  color: $white;
+  border: solid 1px $white;
+}
+
+.inverted-button-1:hover {
+  color: $teal;
+  background-color: $white;
+}
+
+.inverted-button-2 {
+  background-color: $midnight;
+  color: $white;
+  border: solid 1px $white;
+}
+
+.inverted-button-2:hover {
+  color: $charcoal;
+  background-color: $white;
+}
+
+.cancel-button {
+  background-color: $crimson;
+  color: $white;
+  border: solid 1px $white;
+}
+
+.cancel-button:hover {
+  color: $white;
+  background-color: $ruby;
+}
+
+.disabled-button {
+  background-color: $mist;
+  color: $charcoal;
+  border: solid 1px $white;
+}
