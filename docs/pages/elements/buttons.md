@@ -59,8 +59,8 @@ In general, all buttons should have tracking. This allows analytics for user act
 ### Buttons with input boxes
 **Input box with single button**
 The button is attached to the end of the input box in large spaces -- or stacked on smaller spaces. Examples of this:
-- Search Widget
-- Newsletter Subscribe
+- [Search Widget]({{ site.url }}search-widget)
+- [Newsletter Subscribe]({{ site.url }}samhsa-newsletter)
 
 *example newsletter widget*
 

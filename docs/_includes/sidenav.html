@@ -1,19 +1,9 @@
-{% if page.category == "default" %}
-{% include default-nav.html %}
-{% endif %}
-
-{% if page.category == "component" %}
-{% include components-nav.html %}
-{% endif %}
-
-{% if page.section == "global-component" %}
-{% include global-components-nav.html %}
-{% endif %}
-
-{% if page.category == "elements" %}
-{% include elements-nav.html %}
-{% endif %}
-
-{% if page.category == "styles" %}
-{% include styles-nav.html %}
-{% endif %}
+<div id="side-menu" class="nav side-menu element-nav">
+  <h2><a href="/" title="SAMHSA Pattern Library">SAMHSA Pattern Library</a></h2>
+  <ul class="menu">
+    {% include styles-nav.html %}
+    {% include elements-nav.html %}
+    {% include global-components-nav.html %}
+    {% include components-nav.html %}
+  </ul>
+</div>
