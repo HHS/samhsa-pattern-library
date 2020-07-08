@@ -82,7 +82,7 @@ Content:
 -  "SAMHSA's mission is to reduce the impact of substance abuse and mental illness of America's communities."
 
 -  "5600 Fishers Lane, Rockville, MD 20857
-  1-877-SAMHSA-7 (1-877-726-4727)""
+  1-877-SAMHSA-7 (1-877-726-4727)"
 
 <a name="icons"></a>
 ## Footer Icons
