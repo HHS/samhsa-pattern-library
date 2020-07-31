@@ -34,7 +34,7 @@ This links are represented as actionalble icons. The icons are from the FontAwes
 - Facebook - icon: facebook-square - color: #3966b8 - link [https://www.facebook.com/samhsa](https://www.facebook.com/samhsa)
 - Twitter - icon: twitter-square - color: #00a2f9 - link [https://twitter.com/samhsagov](https://twitter.com/samhsagov)
 - YouTube - icon: youtube-square - color: #fe2c13 - link [https://www.youtube.com/samhsa/](https://www.youtube.com/samhsa/)
-- LinkedIn -  icon: linkedin - color: #f0c65c2 - link [https://www.linkedin.com/company/substance-abuse-and-mental-health-services-administration/](https://www.linkedin.com/company/substance-abuse-and-mental-health-services-administration/)
+- LinkedIn -  icon: linkedin - color: #0E76A8 - link [https://www.linkedin.com/company/substance-abuse-and-mental-health-services-administration/](https://www.linkedin.com/company/substance-abuse-and-mental-health-services-administration/)
 - RSS - icon: rss-square - color: #f89c40 - link [https://www.samhsa.gov/rss](https://www.samhsa.gov/rss)
 - Share - icon: share-square - color #1b7391 - link ??
 - Email - link [https://samhsa.us4.list-manage.com/subscribe?u=d0780dc94825e65acd61c17dc&id=ee1c4b138c](https://samhsa.us4.list-manage.com/subscribe?u=d0780dc94825e65acd61c17dc&id=ee1c4b138c)
