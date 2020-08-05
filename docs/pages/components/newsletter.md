@@ -23,22 +23,5 @@ User is able to enter their email address in the input box.
 [Read more about form specification]({{ site.url }}forms)
 
 **Submit Button**
-OnClick / On Tap button validates that the email address is valid.
-- If the email address is empty or not valid -- display error (in accordance with the specification for error handling)
-  - "Please enter your email address"
-  - "Your email address is not right"
-- If the email address is correct. The system process the email address.
-  - The user is opted in to all SAMHSA newsletters.
-  - The system displays the success message
-[Read more about button specification]({{ site.url }}buttons)
+OnClick / On Tap button system displays the [mailchip signup](https://samhsa.us4.list-manage.com/subscribe?u=d0780dc94825e65acd61c17dc&id=ee1c4b138c) form with the email address prefilled with the address the user entered.
 
-### Success Message
-
-**Small & Medium Screen Footer**
-
-![Success small screen](../assets/img/footer/sm-newsletter-success-state.png)
-
-
-**Large & Extra Large Screens**
-
-![Success large screen](../assets/img/footer/lg-newsletter-success-state.png)
