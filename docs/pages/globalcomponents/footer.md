@@ -23,8 +23,11 @@ The footer consists of quick links, language assistance links, contact informati
 ![footer small screen](../assets/img/footer/sm-footer.png)
 
 
+
 ## Large & Extra Large Screens
 ![footer large screen](../assets/img/footer/lg-footer.png)
+
+
 
 <a name="social"></a>
 ## Social links
