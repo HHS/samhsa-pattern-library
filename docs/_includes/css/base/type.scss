@@ -7,6 +7,8 @@ body {
   color: $charcoal;
 }
 
+// h1, h2, h3, h4, h5, h6, p { margin: 0;}
+
 h1 {
     font-size: 28px;
     line-height: 30px;
@@ -48,7 +50,6 @@ a {
   line-height: 20px;
   font-weight: 400;
   color: $sapphite;
-  text-decoration: none;
 }
 a:hover {
     color: $ruby;

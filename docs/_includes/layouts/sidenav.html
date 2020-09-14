@@ -1,0 +1,23 @@
+<div id="side-menu" class="nav side-menu element-nav">
+  <h2><a href="/" title="SAMHSA Pattern Library">SAMHSA Pattern Library</a></h2>
+
+    {% if site.data.side_nav.side-navigation[0] %}
+      <ul class="menu">
+        {% for item in site.data.side_nav.side-navigation %}
+          <li class="menu-item level-1">
+            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+
+            {% if item.second-level[0] %}
+              <ul>
+                {% for item in item.second-level %}
+                  <li class="menu-item level-2">
+                    <a href="{{ item.url | relative_url }}">{{ item.page }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+</div>

@@ -1,0 +1,66 @@
+.accordion {
+  margin: 3em auto;
+  max-width: 30em;
+}
+
+.toggle {
+  display: none;
+}
+
+.option {
+  position: relative;
+  margin-bottom: 1em;
+}
+
+.title,
+.content {
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: all 0.2s;
+}
+
+.title {
+  background: #fff;
+  padding: 1em;
+  display: block;
+  color: $charcoal;
+  font-weight: bold;
+}
+.title:after, .title:before {
+  content: '';
+  position: absolute;
+  right: 1.25em;
+  top: 1.25em;
+  width: 2px;
+  height: 0.75em;
+  background-color: $charcoal;
+  transition: all 0.2s;
+}
+.title:after {
+  transform: rotate(90deg);
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  background-color: #fff;
+  p {
+    margin: 0;
+    padding: 0.5em 1em 1em;
+    font-size: 0.9em;
+    line-height: 1.5;
+  }
+}
+
+.toggle:checked {
+  & + .title,
+  & + .title + .content {
+    box-shadow: 3px 3px 6px #ddd, -3px 3px 6px #ddd;
+  }
+  & + .title + .content {
+    max-height: 500px;
+  }
+  & + .title:before {
+    transform: rotate(90deg) !important;
+  }
+}

@@ -2,19 +2,19 @@
 layout: page
 title: Toggle Button
 category: elements
-section: elements
-permalink: "/toggle-button/"
+permalink: "/toggle/"
 ---
 
 ## Overview
 Toggle fields are buttons used for binary information. The state is either on or off. Good examples are for use in settings options, or in forms for yes or no questions. The benefit of toggles is that they are touch-friendly. Be sure to use cues, both visual and for screen readers, to make clear the difference between the two states.
 
-![toggle button](../assets/img/forms/toggle-swtich.png "Toggle Button")
+{% include /patterns/toggle/toggle.md %}
 
 **Contents**
 - [Functionality](#functionality)
 - [Usability Guidelines](#usability)
 - [Accessibility](#accessibility)
+- [Code](#code)
 
 <a name="functionality"></a>
 ### Functionality
@@ -28,7 +28,7 @@ Toggle Fields should have enough space around tap-able touch targets.
 
 Field label should be included in the clickable area.
 
-![toggle button label](../assets/img/forms/toggle-swtich-with_label.png "Toggle Button with Label")
+{% include /patterns/toggle/toggle-with-label.md %}
 
 <a name="accessibility"></a>
 ### Accessibility
@@ -38,3 +38,15 @@ Aria labels should be used here to communicate the toggle state.
 - aria-pressed="false"
 
 *Read more about how to make this button fully inclusive in this [Smashing Magazine](https://www.smashingmagazine.com/2017/09/building-inclusive-toggle-buttons/) article.*
+
+<a name=“code”></a>
+### Code
+### HTML
+```html
+  {% include /patterns/toggle/toggle.md %}
+```
+
+### SCSS
+```scss
+  {% include /patterns/toggle/toggle.scss %}
+``

@@ -1,0 +1,32 @@
+// Menus and lists
+//==========================================================================
+
+//Apply this to the UL (or OL)
+
+@mixin menu(){
+  display: block;
+  margin: 0;
+  padding: 0;
+  > li,
+  > li > a{
+    display: inline-block;
+  }  
+  > li{
+    margin: 0;
+    padding: 0;
+  }
+}
+
+//Apply this to the LI
+@mixin double-caret(){
+  
+  margin: 0 0 .5em;
+  padding: 0 0 0 1em;
+  position: relative;
+  display: block;  
+  &:before{
+    content: "\0BB \020";
+    position: absolute;
+    left: 0;
+  }
+}

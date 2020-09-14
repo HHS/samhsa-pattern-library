@@ -1,0 +1,51 @@
+// Open and close icons
+// This creates a + icon
+//==========================================================================
+
+// Apply this mixin to the selector that you want to have the + inside
+// $container is the width and height of the selector that holds the +
+// The $width and $height are for the horizontal rectangle in the +
+// The :after item is rotated to be the verticle part of the +
+//
+// The $variation allows you to change the + to a x
+// $variation values are 'plus' or 'cross'
+// $variation is optional - default is a plus
+//
+// Example:
+// .menu-icon{
+//   @include plus-icon(28px, 16px, 4px);
+//  }
+
+@mixin plus-icon($container, $width, $height, $variation: 'plus'){
+  display: block;
+  width: $container;
+  height: $container;
+  position: relative; 
+  &:before,
+  &:after{
+    content: '';
+    display: block;
+    position: absolute;
+    overflow:  hidden;
+    top: 50%;
+    left: 50%;
+    background-color: #000;
+    width: $width;
+    height: $height;
+    margin: ($height/2)*-1 0 0 ($width/2)*-1;
+  }
+
+  //Variations
+  @if $variation == 'plus'{   
+    &:after{
+      transform: rotate(90deg);
+    }    
+  } @elseif $variation == 'cross'{    
+    &:before{
+      transform: rotate(45deg);
+    }    
+    &:after{
+      transform: rotate(135deg);
+    }   
+  }
+}

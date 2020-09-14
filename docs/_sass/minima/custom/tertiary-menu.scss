@@ -1,0 +1,225 @@
+// Left Side Menu
+//==========================================================================
+
+.side-menu {
+  font-size: $base-font-size;
+  margin-bottom: $gutters;
+
+   h2 {
+     margin: 0;
+     padding: $side-menu-padding;
+     font-size: 1.1em;
+     font-weight: $weight-regular;
+     color: $white;
+     background-color: $sm-bg-1;
+     font-weight: bold;
+
+    a {
+      display: block;
+      color: $white;
+      font-weight: bold;
+      padding: 0;
+      font-size: $base-font-size;
+    }
+  }
+  .menu {
+    @include menu;
+    background: $sm-bg-2;
+    li {
+      display: block;
+    }
+  }
+  a {
+    @include hover-link;
+    font-family: $heading-font-family;
+    padding: $side-menu-padding;
+    color: $black;
+   	font-weight: normal;
+  }
+  .menu-item--active-trail > a,
+  a.is-active {
+    font-weight: bold;
+  }
+
+  //-------Level 1 ----------//
+
+  > ul.menu > li{
+    border-top: $sm-border;
+
+    //-------Level 2 ----------//
+    > ul{
+      padding: $side-menu-padding*1.5 0 $side-menu-padding;
+      border-top: $sm-border;
+
+      li.menu-item--active-trail > a {
+        font-weight: bold;
+      }
+
+      //(li and a under this inherit the styling)
+      li {
+        background-color: $sm-bg-3;
+        padding-left: 0;
+        margin-bottom: 0;
+
+	        a{
+	          padding-top: 0;
+	          padding-bottom: 4px;
+	        }
+
+	        a.is-active {
+	         font-weight: bold;
+	        }
+
+	        //-------Level 3 ----------//
+	        ul{
+	          padding: $side-menu-padding*.5 0 0 $side-menu-padding*.5;
+	          background-color: $sm-bg-3;
+
+	          li{
+	             padding-left:10px;
+				}
+             }//ul - level 3
+         }//li
+    }//ul - level 2
+  }//ul - level 1
+
+
+  //Collapsible menu
+  //---------------------------------------------------------
+  &.collapsible{
+    border: 1px solid $sm-bg-2;
+
+    //Adding the collapsible button
+    //Using pixels for the button (28x28px with 10px gutters)
+    //--------------------------
+    h2{
+      position: relative;
+      padding-right: 50px;
+    }
+
+    .menu-toggle{
+      position: absolute;
+      right: 10px;
+      margin: -14px 0 0 0;
+      width: 28px;
+      height: 28px;
+      overflow: hidden;
+      text-align: center;
+      cursor: pointer;
+      text-indent: -999em;
+      background-color: darken($sm-bg-1, 30%);
+
+
+      //Creating the "+" or "-" icon w/ css
+      .menu-icon{
+        @include plus-icon(28px, 16px, 4px);
+
+        &:after{
+          opacity: 1;
+          transition: opacity $base-duration $base-timing;
+        }
+      }
+    }
+
+    &.animating .menu-toggle .menu-icon:after,
+    &.open .menu-toggle .menu-icon:after{
+      opacity: 0;
+    }
+
+    &.open.animating .menu-toggle .menu-icon:after{
+      opacity: 1;
+    }
+
+
+    //Setting visibility of open side menu on mobile devices
+    //--------------------------
+    > ul.menu{
+      display: none;
+    }
+
+    &.open .menu{
+      display: block;
+    }
+  }//.collapsible
+
+}//.side-menu
+
+
+// Might want to edit the color variables in /config/variables/colors rather than change code here
+//-----------------------------------------------------
+
+ .side-menu ul.menu{
+
+  }
+  .menu a{
+
+  }
+
+.side-menu{
+  &.collapsible{
+    //The button to open the menu when collapsible
+    .menu-toggle{
+      .menu-icon:before,
+      .menu-icon:after{
+        background-color: $sm-color-1;
+      }
+    }
+  }
+
+  //Level 1
+  //--------------------------
+  > ul.menu > li {
+    background-color: $sm-bg-2;
+
+    &:hover,
+    &:active,
+    &:focus{
+      background-color: $sm-bg-4;
+    }
+  }
+
+  //Level 2 & 3
+  //--------------------------
+  > ul.menu > li > ul{
+    background-color: $sm-bg-3;
+
+    a{
+      @include link-colors($sm-color-2, $sm-color-2, $sm-color-2, $sm-color-2, $sm-color-2);
+     font-weight: normal;
+
+      &.is-active{
+        @include link-colors($sm-color-2, $sm-color-2, $sm-color-2, $sm-color-2, $sm-color-2);
+        background-color: transparent;
+      }
+    }
+  }
+
+  //Arrow colors
+
+  //Level 1
+  //--------------------------
+  > ul.menu > li{
+
+    &.menu-item--expanded > a:after{
+      border-top-color: $white;
+    }
+
+    &.menu-item--collapsed > a:after{
+      border-left-color: $white;
+    }
+
+    //Level 2 & 3
+    //--------------------------
+    > ul li{
+
+      &.menu-item--expanded > a:after{
+        border-top-color: $sm-color-2;
+      }
+
+      &.menu-item--collapsed > a:after{
+        border-left-color: $sm-color-2;
+      }
+    }
+  }
+
+}//.side-menu

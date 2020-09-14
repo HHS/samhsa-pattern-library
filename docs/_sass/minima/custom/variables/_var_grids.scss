@@ -1,0 +1,23 @@
+// Grids
+//=====================================================================
+
+//Creating our Singularity grid
+$max-col: 12;
+$gutters: 14px;
+$gutters-main-layout: 5px 14px;
+$gutters-main-layout-home: 14px 30px;
+//@include add-grid($max-col);
+//@include add-gutter($gutters);
+
+//Max widths
+$max-width-mobile-landscape: 624px;
+$max-width-tablet-portrait: 768px;
+$max-width-tablet-landscape: 864px;
+$max-width-fullsize: 1000px;
+
+//Breakpoints
+$break-mobile-only: 1px $max-width-mobile-landscape - 1;
+$break-mobile-landscape: $max-width-mobile-landscape;
+$break-tablet-portrait: $max-width-tablet-portrait;
+$break-tablet-landscape: $max-width-tablet-landscape;
+$break-fullsize: $max-width-fullsize;

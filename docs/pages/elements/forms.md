@@ -2,7 +2,6 @@
 layout: page
 title: Forms
 category: elements
-section: elements
 permalink: "/forms/"
 ---
 
@@ -66,7 +65,7 @@ Each form element has multiple entities that will likely play a role in its cons
 - Masking
 - Validation
 - Error States
-- More Information [Tool Tip]({{ site.url }}tooltip)
+- More Information [Tool Tip]({{ site.url }}/tooltip)
 - Accessibility Rules
 
 Please be aware of these entities as you review each form element.
@@ -74,13 +73,13 @@ Please be aware of these entities as you review each form element.
 
 <a name="controls"></a>
 ## Form Controls
-- [Text Input]({{ site.url }}text-input)
-- [Dropdown]({{ site.url }}dropdown)
-- [Checkbox]({{ site.url }}checkbox)
-- [Radio Buttons]({{ site.url }}radio-buttons)
-- [Date Picker]({{ site.url }}date-picker)
-- [Date Range]({{ site.url }}datae-range)
-- [Toggle Buttons]({{ site.url }}toggle-buttons)
+- [Text Input]({{ site.url }}/text-input)
+- [Dropdown]({{ site.url }}/dropdown)
+- [Checkbox]({{ site.url }}/checkbox)
+- [Radio Buttons]({{ site.url }}/radio-buttons)
+- [Date Picker]({{ site.url }}/date-picker)
+- [Date Range]({{ site.url }}/datae-range)
+- [Toggle Buttons]({{ site.url }}/toggle-buttons)
 
 <a name="templates"></a>
 ## Form Templates
@@ -107,8 +106,8 @@ If the email address is malformed, display error. **"Please check that your emai
 
 ### Accessibility
 Please see each field element for accessibility guidance
-- [Text Input]({{ site.url }}text-input)
-- [Buttons]({{ site.url }}text-input)
+- [Text Input]({{ site.url }}/text-input)
+- [Buttons]({{ site.url }}/text-input)
 
 ### Feedback
 ![feedback form](../assets/img/forms/feedback.png "Feedback")
@@ -127,8 +126,8 @@ If the email address is malformed, display error. **"Please check that your emai
 
 ### Accessibility
 Please see each field element for accessibility guidance
-- [Text Input]({{ site.url }}text-input)
-- [Buttons]({{ site.url }}text-input)
+- [Text Input]({{ site.url }}/text-input)
+- [Buttons]({{ site.url }}/text-input)
 
 ### Search Widget
 ![search widget](../assets/img/forms/searchwidget.png "Search Widget")
@@ -155,8 +154,8 @@ If the Last Name field is blank, display error. **"Please enter last  name"**.
 
 ### Accessibility
 Please see each field element for accessibility guidance
-- [Text Input]({{ site.url }}text-input)
-- [Buttons]({{ site.url }}text-input)
+- [Text Input]({{ site.url }}/text-input)
+- [Buttons]({{ site.url }}/text-input)
 
 ### Contact
 ![contact form](../assets/img/forms/contact_form.png "Contact Form")
@@ -177,8 +176,8 @@ If the Email Address field is malformed, display error. **"Please check that you
 
 ### Accessibility
 Please see each field element for accessibility guidance
-- [Text Input]({{ site.url }}text-input)
-- [Buttons]({{ site.url }}text-input)
+- [Text Input]({{ site.url }}/text-input)
+- [Buttons]({{ site.url }}/text-input)
 
 ### Address
 ![address form](../assets/img/forms/address_form.png "Address Form")
@@ -201,8 +200,8 @@ If the Zip field is blank, display error. **"Please enter a Zip Code"**.
 
 ### Accessibility
 Please see each field element for accessibility guidance
-- [Text Input]({{ site.url }}text-input)
-- [Buttons]({{ site.url }}text-input)
+- [Text Input]({{ site.url }}/text-input)
+- [Buttons]({{ site.url }}/text-input)
 
 ## Demographic Information
 
@@ -212,19 +211,19 @@ Please see each field element for accessibility guidance
 ### Functionality
 The four (optional) for gender are: Male, Female, Non-Binary, Other
 
-See [radio buttons]({{ site.url }}radio-buttons) for more information
+See [radio buttons]({{ site.url }}/radio-buttons) for more information
 
-- For use cases that need multi-select options, use [checkboxes]({{ site.url }}checkbox)
+- For use cases that need multi-select options, use [checkboxes]({{ site.url }}/checkbox)
 
 ### Accessibility
 Please see each field element for accessibility guidance
-- [radio buttons]({{ site.url }}radio-buttons)
+- [radio buttons]({{ site.url }}/radio-buttons)
 
 ### Race
 ![gender form](../assets/img/forms/gender.png "Gender Form")
 
 ### Functionality
-The options for race use [checkboxes]({{ site.url }}checkbox). Race displays:
+The options for race use [checkboxes]({{ site.url }}/checkbox). Race displays:
 
 - African America
 - Alaska Native/American Indian
@@ -232,12 +231,12 @@ The options for race use [checkboxes]({{ site.url }}checkbox). Race displays:
 - White
 - Native Hawaiian or Pacific Islander
 
-Ethnicity is a yes/no [toggle button]({{ site.url }}toggle-button) asking "Hispanic or Latino". See [toggle button]({{ site.url }}toggle-button) for more information
+Ethnicity is a yes/no [toggle button]({{ site.url }}/toggle-button) asking "Hispanic or Latino". See [toggle button]({{ site.url }}toggle-button) for more information
 
 ### Accessibility
 Please see each field element for accessibility guidance
-- [Checkbox]({{ site.url }}checkbox)
-- [Radio buttons]({{ site.url }}radio-buttons)
+- [Checkbox]({{ site.url }}/checkbox)
+- [Radio buttons]({{ site.url }}/radio-buttons)
 
 <a name="complex"></a>
 ## Long Complex Forms

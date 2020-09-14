@@ -1,0 +1,70 @@
+side-nav-title: Pattern Lab Tertiary Nav
+side-navigation:
+  - title: Styles
+    url: /colors
+    second-level:
+      - page: Colors
+        url: /colors
+      - page: Typography
+        url: /typography
+      - page: Icons
+        url: /icons
+      - page: Links
+        url: /links
+      - page: Logos
+        url: /logos
+  - title: Elements
+    url: /buttons
+    second-level:
+      - page: Accordion
+        url: /accordion
+      - page: Buttons
+        url: /buttons
+      - page: Checkbox
+        url: /checkbox
+      - page: Date Picker
+        url: /date-picker
+      - page: Date Range
+        url: /date-range
+      - page: Dropdown
+        url: /dropdown
+      - page: Forms
+        url: /forms
+      - page: Radio Buttons
+        url: /radio-buttons
+      - page: Tabs
+        url: /tabs
+      - page: Text Input
+        url: /text-input
+      - page: Toggle Button
+        url: /toggle
+      - page: Tooltip
+        url: /tooltip
+  - title: Global Components
+    url: /header-lg
+    second-level:
+      - page: HTML Head
+        url: /html-head
+      - page: Desktop Header
+        url: /header-lg
+      - page: Mobile Header
+        url: /header-sm
+      - page: Tertiary Nav
+        url: /tertiary-nav
+      - page: Breadcrumbs
+        url: /breadcrumbs
+      - page: Page Titles
+        url: /page-titles
+      - page: Pagination
+        url: /pagination
+      - page: Responsive Footer
+        url: /footer
+  - title: Components
+    url: /cards
+    second-level:
+      - page: Cards
+        url: /cards
+      - page: SAMHSA Newsletter
+        url: /newsletter
+      - page: Search Widget
+        url: /search-widget

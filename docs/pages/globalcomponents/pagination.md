@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Global Pagination
-category: component
-section: global-component
+category: global-component
 permalink: "/pagination/"
 ---
 
@@ -11,12 +10,12 @@ Pagination is used on list pages like search results. Pagination is used to help
 
 ### Pagination on Webpage
 
-![pagination](../assets/img/pagination.png)
+![pagination](../assets/img/pagination/pagination.png)
 
 
 ### Printing Pagination
 
-![pagination](../assets/img/pagination-printed.png)
+![pagination](../assets/img/pagination/pagination-printed.png)
 
 ### Functionality & Specifications
 OnClick/OnTap of number the associated page is displayed

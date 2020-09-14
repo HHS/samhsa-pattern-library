@@ -1,0 +1,26 @@
+// Card Classes -->
+// this class helps to constrain the card using a container -- it is an example only
+.card-container {
+  max-width: 320px;
+  padding: 2px;
+  margin: 15px;
+}
+
+.card-title {
+    font-size: 18px;
+    padding: 0;
+  }
+.card-body {
+  padding: 0;
+  color: $charcoal /*rgb(74, 74, 74);*/
+}
+
+.card-left .card-title, .card-left .card-body {
+  margin-left: 45%;
+}
+
+.card-left .card-image {
+  max-width: 40%;
+  height: auto;
+  float: left;
+}

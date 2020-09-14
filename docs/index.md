@@ -1,9 +1,6 @@
 ---
 layout: page
 title: This is a work in progress!!
-section: home
+section: page
 category: default
 ---
-
-
-

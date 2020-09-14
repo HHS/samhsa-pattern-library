@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Card
+title: Cards
 category: component
-section: component
-permalink: "/card/"
+permalink: "/cards/"
 ---
 
 ## Overview of Component Group
@@ -46,51 +45,13 @@ The [USWDS](https://designsystem.digital.gov/components/card/) recommends using 
 
 ---
 
-<div class="card-container">
-  <div class="card-short">
-    <a href="linkhere">
-        <p class="card-title">Evidence-Based Resource Center (EBRC)</p>
-        <p class="card-body">Our resource center has tools for communities, clinicians, policymakers, and others in the field.</p>
-    </a>
-  </div>
-</div>
+{% include /patterns/cards/card-short.md %}
 
 ---
 
 **HTML**
-
-```
-<div class="card-container"><! -- example of how to constrain the card into its container -->
-  <div class="card-short">
-    <a href="linkhere">
-        <p class="card-title">Your Title Here</p>
-        <p class="card-body">Your Body Content</p>
-    </a>
-  </div>
-</div>
-```
-
-**SCSS**
-
-_Note link color and styling is consistent with global styles._
-```
-// Card Classes -->
-// this class helps to constrain the card using a container -- it is an example only
-.card-container {
-  max-width: 320px;
-  padding: 2px;
-  margin: 15px;
-}
-
-.card-short {}
-.card-title {
-    font-size: 18px;
-    padding: 0;
-  }
-.card-body {
-  padding: 0;
-  color: $charcoal /*rgb(74, 74, 74);*/
-}
+```html
+  {% include /patterns/cards/card-short.md %}
 ```
 
 <a name="card-wide"></a>
@@ -105,52 +66,15 @@ _Note link color and styling is consistent with global styles._
 
 ---
 
-<div class="card-container">
-  <div class="card-wide">
-    <a>
-    <img class="card-image" alt-text="" src="../assets/img/cards/spotlight-item-image1.jpg">
-    <p class="card-title">Opioid Overdose Prevention Toolkit
-    </p>
-    <p class="card-body">Our toolkit provides essential information about preventing an opioid overdose—a crisis which claimed over 42,000 lives in 2016.</p>
-    </a>
-  </div>
-</div>
+{% include /patterns/cards/card-wide.md %}
 
 ---
 
 **HTML**
-```
-<div class="card-container">
-<! -- example of how to constrain the card into its container -->
-  <div class="card-wide">
-    <a>
-    <img class="card-image" alt-text="" src="source-for-your-image">
-    <p class="card-title">Your Title</p>
-    <p class="card-body">Your Body Content</p>
-    </a>
-  </div>
-</div>
+```html
+  {% include /patterns/cards/card-wide.md %}
 ```
 
-**SCSS**
-```
-// Card Classes -->
-// this class helps to contain the card using a container -- it is an example only
-.card-container {
-  max-width: 320px;
-  padding: 2px;
-  margin: 15px;
-}
-
-.card-title {
-    font-size: 18px;
-    padding: 0;
-  }
-.card-body {
-  padding: 0;
-  color: $charcoal /*rgb(74, 74, 74);*/
-}
-```
 
 <a name="card-left"></a>
 ## Card Left
@@ -164,54 +88,18 @@ _Note link color and styling is consistent with global styles._
 
 ---
 
-<div class="card-container">
-<div class="card-left"><a>
-      <img class="card-image" alt-text="" src="../assets/img/cards/glance-item-image1.jpg">
-      <p class="card-title">Who We Are</p>
-      <p class="card-body">We lead public health efforts to advance the behavioral health of the nation.</p></a>
-  </div>
-</div>
+{% include /patterns/cards/card-left.md %}
 
 ---
 
 **HTML**
-```
-<div class="card-container">
-<! -- example of how to constrain the card into it's container -->      
-<div class="card-left"><a>
-      <img class="card-image" alt-text="" src="source-for-your-image">
-      <p class="card-title">Your Title</p>
-      <p class="card-body">Your Body Content</p></a>
-  </div>
-</div>
+```html
+  {% include /patterns/cards/card-wide.md %}
 ```
 
+## SCSS
+_Note link color and styling is consistent with global styles._
 **CSS**
+```scss
+  {% include /patterns/cards/cards.scss %}
 ```
-// Card Classes -->
-// this class helps to contain the card using a container -- it is an example only
-.card-container {
-  max-width: 320px;
-  padding: 2px;
-  margin: 15px;
-}
-
-  .card-title {
-      font-size: 18px;
-      padding: 0;
-    }
-  .card-body {
-    padding: 0;
-    color: $charcoal /*rgb(74, 74, 74);*/
-  }
-
-  .card-left .card-title, .card-left .card-body {
-    margin-left: 45%;
-  }
-
-  .card-left .card-image {
-    max-width: 40%;
-    height: auto;
-    float: left;
-  }
-  ```

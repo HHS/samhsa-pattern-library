@@ -1,15 +1,14 @@
 ---
 layout: page
 title: Typography
-category: component
-section: styles
+category: styles
 permalink: "/typography/"
 ---
 ## Typeface
 
-![Tahoma Font Face](../assets/img/tahoma.png)
+![Tahoma Font Face](../assets/img/logos/tahoma.png)
 
-The current text styles uses [Tahoma](https://www.fonts.com/font/microsoft-corporation/tahoma) ![external link](../assets/img/ext-link.png) as its typeface. Verdana and Segoe are also a part of SAMHSA's font stack.
+The current text styles uses {% include snippets/ext-link.html url="https://www.fonts.com/font/microsoft-corporation/tahoma" text="Tahoma" %} as its typeface. Verdana and Segoe are also a part of SAMHSA's font stack.
 
 ### Text alignment
 While right-aligned, centered, and justified text have their place, most websites benefit from a consistent use of left-aligned text. Justified text, common in print, does not yet display well enough in a web browser to be considered a best practice.
@@ -35,9 +34,10 @@ The optimal line length for your body text is considered to be 50-60 characters 
 
 More reading on Responsive Typography:
 
-[A More Modern Scale for Web Typography](https://typecast.com/blog/a-more-modern-scale-for-web-typography) ![external link](../assets/img/ext-link.png)
+{% include snippets/ext-link.html url="https://typecast.com/blog/a-more-modern-scale-for-web-typography" text="A More Modern Scale for Web Typography" %}
 
-[https://github.com/twbs/rfs#how-does-it-work](https://github.com/twbs/rfs#how-does-it-work) ![external link](../assets/img/ext-link.png)
+{% include snippets/ext-link.html url="https://github.com/twbs/rfs#how-does-it-work" text="RFS" %}
+
 
 ## Specifications
 
@@ -67,20 +67,17 @@ More reading on Responsive Typography:
 
 ### Links
 **All Screens** Family: Tahoma 400 - Size: 15px - Line Height: 20px
+_read more about [link rules and variations]({{ site.url }}/links)_
 
-External Links end with an external link.
-
-Example - [Link to external site](#) ![external link](../assets/img/ext-link.png)
-
-Download links start with a document icon and ends with the file type and size.
-Example - ![external link](../assets/img/file-pdf.png) [Download this document (PDF | 12.5KB)](#)
 
 ## Form Type styles
 ### Input
 **All Screens** Family: Tahoma 400 - Size: 16px - Line Height: 0px
+_read more about [form rules and variations]({{ site.url }}/forms)_
 
 ### Buttons
 **All Screens** Family: Tahoma 700 - Size: 16px - Line Height: 18px
+_read more about [button rules and variations]({{ site.url }}/buttons)_
 
 ## Prose example
 

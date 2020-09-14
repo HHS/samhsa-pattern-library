@@ -2,7 +2,6 @@
 layout: page
 title: Accordion
 category: elements
-section: elements
 permalink: "/accordion/"
 ---
 
@@ -15,12 +14,29 @@ See more guidance from the [USWDS](https://designsystem.digital.gov/components/a
 - [Design](#design)
 - [Functionality](#functionality)
 - [Accessibility](#accessibility)
+- [Code](#code)
 
 <a name="design"></a>
 ## Design
+{% include patterns/accordion/accordion.md %}
+
+
 
 <a name="functionality"></a>
 ### Functionality
 
 <a name="accessibility"></a>
 ### Accessibility
+
+
+<a name="code"></a>
+## Code
+### HTML
+```html
+  {% include patterns/accordion/accordion.md %}
+```
+### SCSS
+  _Note link color and styling is consistent with global styles._  
+```scss
+{% include patterns/accordion/accordion.scss %}
+```

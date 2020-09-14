@@ -2,7 +2,6 @@
 layout: page
 title: Dropdown
 category: elements
-section: elements
 permalink: "/dropdown/"
 ---
 
@@ -13,8 +12,7 @@ Dropdown list should be using sparingly. If the list is fewer than 7 options, it
 
 The default option of the select menu should be language directing the user, for instance "Select a State".
 
-![dropdown](../assets/img/forms/dropdown.png "Dropdown")
-![dropdown error](../assets/img/forms/dropdown-error.png "Dropdown Error")
+{% include /patterns/dropdown/dropdown.md %}
 
 **Contents**
 - [Accessibility](#accessibility)
@@ -22,6 +20,7 @@ The default option of the select menu should be language directing the user, for
 - [Dropdown as Select Menu](#select)
 - [Accessibility](#accessibilityselect)
 - [Functionality](#functionalityselect)
+- [Code](#code)
 
 
 <a name="accessibility"></a>
@@ -48,3 +47,14 @@ In general, dropdowns should not auto-submit information, except when they are b
 OnHold, select menu displays options list.
 
 OnClick/OnTap of option item, system displays destination target or page.
+
+## Code
+### HTML
+```html
+  {% include /patterns/dropdown/dropdown.md %}
+```
+
+### SCSS
+```scss
+  {% include /patterns/dropdown/dropdown.scss %}
+```

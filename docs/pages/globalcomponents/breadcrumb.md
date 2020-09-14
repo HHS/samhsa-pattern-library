@@ -1,20 +1,10 @@
 ---
 layout: page
 title: Breadcrumbs
-category: global-component
-section: global-component
-permalink: "/breadcrumbs/"
+category: elements
+permalink: "/breadcrumbs"
 ---
-
-
-<nav class="breadcrumb" aria-label="breadcrumbs">
-  <ol>
-    <li><a href="/"> Home </a></li>
-    <li><a href="/grandparent"> Grandparent </a></li>
-    <li><a href="/grandparent/parent"> Parent </a></li>
-    <li aria-current="location"> Current </li>
-  </ol>
-</nav>
+{% include patterns/breadcrumb/breadcrumb.md %}
 
 ## Overview
 Breadcrumbs are used to help users navigate the SAMHSA website.
@@ -35,32 +25,12 @@ There is not HTML property for breadcrumbs. So to help make them usuable for scr
 
 ## Code
 ### HTML
-
-```
-<nav class="breadcrumb" aria-label="breadcrumbs">
-  <ol>
-    <li><a href="/"> Home </a></li>
-    <li><a href="/grandparent"> Grandparent </a></li>
-    <li><a href="/grandparent/parent"> Parent </a></li>
-    <li aria-current="location"> Current </li>
-  </ol>
-</nav>
-```
+```html
+  {% include patterns/breadcrumb/breadcrumb.md %}
+  ```
 
 ### SCSS
-_Note link color and styling is consistent with global styles._
-```
-.breadcrumb  ol {
-    padding: 10px 16px;
-    list-style: none;
-    li {
-      display: inline;
-      font-size: 14px;
-    }
-    li+li:before {
-    padding: 8px;
-    color: black;
-    content: "/\00a0";
-  }
- }
- ```
+  _Note link color and styling is consistent with global styles._  
+```scss  
+  {% include /patterns/breadcrumb/breadcrumb.scss %}
+  ```

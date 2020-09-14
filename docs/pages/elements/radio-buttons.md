@@ -9,12 +9,13 @@ permalink: "/radio-buttons/"
 ## Overview
 Radio buttons allow users to select multiple options from a group of pre-detemined options. This element is typical seen on webforms. If there are more than 7 options, a dropdown would be an alternative to use.
 
-![radio button](../assets/img/forms/radio_button.png "Radio Button")
+{% include /patterns/radio-buttons/radio-buttons.md %}
 
 **Contents**
 - [Functionality](#functionality)
 - [Usability Guidelines](#usability)
 - [Accessibility](#accessibility)
+- [Code](#code)
 
 <a name="functionality"></a>
 ## Functionality
@@ -35,12 +36,23 @@ List should always be displayed vertically.
 Try to keep this list on short (not more than a can be seen on a mobile screen). If there are a lot of options try grouping types of items together to create shorter list.
 
 **When to choose something else**
-- If the selection list is more than 7 options  [dropdown]({{ site.url }}dropdown)
-- If the user can select multiple options use [checkboxes]({{ site.url }}checkbox)
-- If there is only a binary option, like yes & no, consider using a [toggle button]({{ site.url }}toggle-button)
+- If the selection list is more than 7 options  [dropdown]({{ site.url }}/dropdown)
+- If the user can select multiple options use [checkboxes]({{ site.url }}/checkbox)
+- If there is only a binary option, like yes & no, consider using a [toggle button]({{ site.url }}/toggle-button)
 
 <a name="accessibility"></a>
 ## Accessibility
 - **Use fieldset and legend.** Group related radio buttons together with `<fieldset>` and describe the group with `<legend>`.
 - **Use proper labels and attributes.** Each radio button should have a `<label>`. Associate the two by matching the `<label>`’s `for` attribute to the `<input>`’s `id` attribute.
 - The `title` attribute can replace `<label>`.
+
+## Code
+### HTML
+```html
+  {% include /patterns/radio-buttons/radio-buttons.md %}
+```
+
+### SCSS
+```scss
+  {% include /patterns/radio-buttons/radio-buttons.scss %}
+```

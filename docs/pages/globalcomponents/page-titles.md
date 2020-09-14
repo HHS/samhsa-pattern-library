@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Page Titles
-category: component
-section: global-component
+category: global-component
 permalink: "/page-titles/"
 ---
 

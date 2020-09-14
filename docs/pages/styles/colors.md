@@ -2,7 +2,6 @@
 layout: page
 title: Colors
 category: styles
-section: styles
 permalink: "/colors/"
 ---
 

@@ -1,8 +1,7 @@
 ---
 layout: page
 title: HTML HEAD
-category: component
-section: global-component
+category: global-component
 permalink: "/html-head/"
 ---
 

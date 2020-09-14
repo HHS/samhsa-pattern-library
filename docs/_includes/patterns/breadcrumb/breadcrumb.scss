@@ -1,0 +1,13 @@
+.breadcrumb ol {
+  padding: 10px 16px;
+  list-style: none;
+  li {
+    display: inline;
+    font-size: .75rem;
+  }
+  li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+}

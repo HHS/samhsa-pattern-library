@@ -1,0 +1,769 @@
+main-nav-title: Main Navigation
+samhsa-navigation:
+  - title: Find Treatment
+    url: '#'
+    second-level:
+      - page: Substance Use Treatment Locator
+        url: '#'
+      - page: Behavioral Health Treatment Services Locators
+        url: '#'
+      - page: Buprenorphine Physician & Treatment Program Locator
+        url: '#'
+      - page: Early Serious Mental Illness Treatment Locator
+        url: '#'
+      - page: Opioid Treatment Program Directory
+        url: '#'
+      - page: View All Helplines and Treatment Locators
+        url: '#'
+        third-level:
+          - page: Behavioral Health Treatment Services Locator
+            url: '#'
+          - page: Early Serious Mental Illness Treatment Locator
+            url: '#'
+          - page: National Suicide Prevention Lifeline
+            url: '#'
+          - page: Opioid Treatment Program Directory
+            url: '#'
+          - page: Veterans Crisis Line
+            url: '#'
+          - page: Contact Us
+            url: '#'
+
+  - title: Practitioner Training
+    url: '#'
+    second-level:
+      - page: Technology Transfer Centers (TTC) Program
+        url: '#'
+      - page: State Targeted Response Technical Assistance (STR-TA)
+        url: '#'
+      - page: Providers' Clinical Support System for Medication Assisted Treatment (PCSS-MAT)
+        url: '#'
+      - page: Clinical Support System for Serious Mental Illness (CSS-SMI)
+        url: '#'
+      - page: Suicide Prevention Resource Center (SPRC)
+        url: '#'
+      - page: Rural Opioid Technical Assistance (ROTA)
+        url: '#'
+      - page: View All Practitioner Training
+        url: '#'
+        third-level:
+          - page: BRSS TACS
+            url: '#'
+            fourth-level:
+              - page: Recovery Support Tools and Resources
+                url: '#'
+                fifth-level:
+                  - page: Parents and Families
+                    url: '#'
+                  - page: Peers
+                    url: '#'
+                    sixth-level:
+                      - page: Core Competencies for Peer Workers
+                        url: '#'
+                      - page: 'FAQs: Core Competencies'
+                        url: '#'
+              - page: Share Your Story
+                url: '#'
+              - page: Shared Decision-Making Tools
+                url: '#'
+              - page: Video Trainings
+                url: '#'
+              - page: Youth and Young Adults
+                url: '#'
+              - page: About BRSS TACS
+                url: '#'
+                fifth-level:
+                  - page: Email List Sign-Up
+                    url: '#'    
+          - page: Center of Excellence for IECMHC
+            url: '#'
+          - page: Center of Excelllence for Protected Health Information (CoE-PHI)
+            url: '#'
+          - page: DTAC
+            url: '#'
+          - page: GAINS Center
+            url: '#'
+            fourth-level:
+              - page: Adult Mental Health Treatment Court Lcoator
+                url: '#'
+              - page: Juvenile Mental Health Treatment Court Locator
+                url: '#'
+              - page: Trauma-Informed Response Trainer Listing
+                url: '#'
+              - page: Locate Mental Health Treatment Courts for Adults
+                url: '#'
+              - page: Locate Mental Health Treatments Courts for Juveniles
+                url: '#'
+              - page: Locate Trauma Trainers
+                url: '#'
+          - page: Homeless and Housing Resource Network (HHRN)
+            url: '#'
+          - page: National Center for Excellence for Eating Disorders (NCEED)
+            url: '#'
+          - page: National Center for Excellence for Tobacco-Free Recovery
+            url: '#'
+          - page: National Center on Substance Abuse and Child Welfare (NCSACW)
+            url: '#'
+          - page: NTTAC
+            url: '#'
+          - page: Provider's CLinical Support System-Universities
+            url: '#'
+          - page: SMFV TA Center
+            url: '#'
+          - page: SOAR Technical Assistance (TA) Center
+            url: '#'
+          - page: Tribal Training and Technical Assistance Center
+            url: '#'
+
+  - title: Public Messages
+    url: '#'
+    second-level:
+      - page: Help Prevent Suicide
+        url: '#'
+      - page: Know the Risks of Marijuana
+        url: '#'
+      - page: Know the Risks of Meth
+        url: '#'
+      - page: Living Well with Serious Mental Illness
+        url: '#'
+      - page: Resources for Families Coping with Mental and Substance Use Disorders
+        url: '#'
+      - page: Mental Illness and Substance Use in Young Adults
+        url: '#'
+
+  - title: Grants
+    url: '#'
+    second-level:
+      - page: Fiscal Year 2020 Grant Announcements
+        url: '#'
+      - page: Continuation Grants
+        url: '#'
+        third-level:
+          - page: DFC & DFC-M Continuations
+            url: '#'
+      - page: Contact Grants
+        url: '#'
+      - page: Grant Awards
+        url: '#'
+        third-level:
+          - page: Applying
+            url: '#'
+            fourth-level:
+              - page: Registration Requirements
+                url: '#'
+              - page: Submitting Your Application
+                url: '#'
+              - page: Forms and Resources
+                url: '#'
+              - page: Guidelines for Consumer Participation
+                url: '#'
+          - page: 2019 Grants
+            url: '#'
+          - page: Grant Awards by State
+            url: '#'
+          - page: SAMHSA Grant Awards Archive
+            url: '#'
+          - page: Block Grants
+            url: '#'
+            fourth-level:
+              - page: SABG
+                url: '#'
+                fifth-level:
+                  - page: Online Course on Primary Prevention
+                    url: '#'
+              - page: MHBG
+                url: '#'
+              - page: Laws and Regulations
+                url: '#'
+              - page: Contacts
+                url: '#'
+          - page: GPRA Measurement Tools
+            url: '#'
+            fourth-level:
+              - page: CSAP GPRA
+                url: '#'
+              - page: CSAT GPRA
+                url: '#'
+                fifth-level:
+                  - page: CSAT GPRA Discretionary Services
+                    url: '#'
+                  - page: CSAT GPRA PPW
+                    url: '#'
+                  - page: CSAT GPRA Best Practices
+                    url: '#'
+              - page: Certificate of Confidentiality
+                url: '#'
+          - page: Grant Review Process
+            url: '#'
+            fourth-level:
+              - page: Grant Review Opportunities
+                url: '#'
+              - page: Grant Review Application
+                url: '#'
+          - page: Grants Management
+            url: '#'
+            fourth-level:
+              - page: Notice of Award (NoA)
+                url: '#'
+                fifth-level:
+                  - page: Standard Terms and Conditions
+                    url: '#'
+              - page: Policies and Regulations
+                url: '#'
+                fifth-level:
+                  - page: HHS Grants Policy Statement
+                    url: '#'
+                  - page: Requirements and Principles
+                    url: '#'
+                  - page: Financial Management Requirements
+                    url: '#'
+                  - page: SAM Registration Renewal
+                    url: '#'
+                  - page: Additional Directives
+                    url: '#'
+                  - page: Drug Free Communities Program
+                    url: '#'
+                  - page: Restricted Status Grants
+                    url: '#'
+          - page: Grants Glossary
+            url: '#'
+          - page: Grants Fact Sheet
+            url: '#'
+          - page: Grants Training Materials
+            url: '#'
+      - page: Apply for Grants at Grants.gov
+        url: '#'
+        
+  - title: Data
+    url: '#'
+    second-level:
+      - page: Reports & Data Tables
+        url: '#'
+      - page: About Us
+        url: '#'
+        third-level:
+          - page: Our Mission
+            url: '#'
+          - page: Our Data Integrity
+            url: '#'
+          - page: Announcements
+            url: '#'
+      - page: Program Evaluations
+        url: '#'
+        third-level:
+          - page: Evaluation Reports
+            url: '#'
+          - page: Evaluations Policies
+            url: '#'
+          - page: Ongoing Evaluations
+            url: '#'
+      - page: Data We Collect
+        url: '#'
+        third-level:
+          - page: National Survey on Drug Use and Health
+            url: '#'
+          - page: Treatment Episode Data Set
+            url: '#'
+          - page: National Mental Health Services Survey
+            url: '#'
+          - page: National Survey of Substance Abuse Treatment Services
+            url: '#'
+          - page: Drug Abuse Warning Network
+            url: '#'
+          - page: Mental Health Client-Level Data
+            url: '#'
+      - page: Quick Statistics
+        url: '#'
+      - page: Frequently Asked Questions
+        url: '#'
+
+  - title: Programs
+    url: '#'
+    second-level:
+      - page: Evidence-Based Practices (EBP) Resource Center
+        url: '#'
+      - page: Medication-Assisted Treatment (MAT)
+        url: '#'
+      - page: Recovery Month
+        url: '#'
+      - page: View All Programs
+        url: '#'
+        third-level:
+          - page: Behavioral Health Equity
+            url: '#'
+            fourth-level:
+              - page: About
+                url: '#'
+              - page: Asian American, Native Hawaiian, and Pacific Islander
+                url: '#'
+              - page: American Indian/Alaska Native
+                url: '#'
+              - page: Black/African American
+                url: '#'
+              - page: Hispanic/Latino
+                url: '#'
+              - page: Lesbian, Gay, Bisexual, and Transgender
+                url: '#'
+                fifth-level:
+                  - page: Training Curricula
+                    url: '#'
+              - page: Resources
+                url: '#'
+          - page: Center for Integrated Health Solutions
+            url: '#'
+          - page: Criminal and Juvenile Justices
+            url: '#'
+          - page: Disaster Preparedness, Response, and Recovery
+            url: '#'
+          - page: Drug-free Workplace
+            url: '#'
+            fourth-level:
+              - page: Drug-Free Workplace Programs
+                url: '#'
+              - page: Drug Testing
+                url: '#'
+              - page: Drug-Free Workplace Helpline
+                url: '#'
+              - page: Drug-Free Workplace Toolkit
+                url: '#'
+              - page: Guidelines and Resources
+                url: '#'
+              - page: Legal Requirements
+                url: '#'
+              - page: About DWP
+                url: '#'
+          - page: ESMI Treatment Locator
+            url: '#'
+            fourth-level:
+              - page: ESMI Glossary of Terms
+                url: '#'
+          - page: Faith-based and Community Initiatives
+            url: '#'
+            fourth-level:
+              - page: About FBCI
+                url: '#'
+              - page: Faith-Based Coalitions & Collaborative Partnerships
+                url: '#'
+              - page: Training and Technical Assitance of FBCI
+                url: '#'
+                fifth-level:
+                  - page: Partnerships and Capacity Building Training Schedule
+                    url: '#'
+              - page: Publications Related to FBCI
+                url: '#'
+          - page: First Responder Mental Health Awareness Training
+            url: '#'
+          - page: Hable. Ellos eschuan.
+            url: '#'
+            fourth-level:
+              - page: Anuncios de servicio público
+                url: '#'
+              - page: Recursos para padres
+                url: '#'
+              - page: Recursos para socios
+                url: '#'
+              - page: Acerca de la campanā
+                url: '#'
+          - page: Historically Black Colleges and Universities Center of Excellence in Behavioral Health
+            url: '#'
+          - page: Homelessness Programs and Resources
+            url: '#'
+            fourth-level:
+              - page: Behavioral Health and Homelessness Resources
+                url: '#'
+              - page: Programs and Services
+                url: '#'
+              - page: Mental and Substance Use Disorders and Homelessness Resources
+                url: '#'
+              - page: Homelessness Event Calendar
+                url: '#'
+          - page: Interdepartmental Serious Mental Illness Coordinating Committee
+            url: '#'
+          - page: KAP
+            url: '#'
+            fourth-level:
+              - page: About
+                url: '#'
+              - page: Resources
+                url: '#'
+              - page: Multi-language Initiative
+                url: '#'
+              - page: Brochures and Serials
+                url: '#'
+              - page: Consumer Products
+                url: '#'
+              - page: KAP E-books
+                url: '#'
+          - page: Million Hearts Initiative
+            url: '#'
+          - page: Minority Fellowship Program (MFP)
+            url: '#'
+            fourth-level:
+              - page: Become an MFP Fellow
+                url: '#'
+              - page: Publications and Resources
+                url: '#'
+              - page: About the MFP
+                url: '#'
+          - page: National Child Traumatic Stress Initiative
+            url: '#'
+            fourth-level:
+              - page: About NCTSI
+                url: '#'
+              - page: Recognizing and Treating Child Traumatic Stress
+                url: '#'
+              - page: Learning Materials and Resources
+                url: '#'
+                fifth-level:
+                  - page: Understanding Child Trauma
+                    url: '#'
+              - page: Entendomas el estrés traumático infantil y cómo ayudar
+                url: '#'
+          - page: National Consumer and Consumer Supported Technical Assistance Center (NCTACT)
+            url: '#'
+          - page: National Network to Eliminate Disparities in Behavioral Health (NNED)
+            url: '#'
+          - page: National Prevention Week
+            url: '#'
+            fourth-level:
+              - page: About
+                url: '#'
+                fifth-level:
+                  - page: Get Invovled
+                    url: '#'
+                  - page: 2018 Highlights
+                    url: '#'
+                  - page: 2017 Highlights
+                    url: '#'
+              - page: Prevention Challenge
+                url: '#'
+              - page: Webinars
+                url: '#'
+              - page: Events and Activities
+                url: '#'
+                fifth-level:
+                  - page: Submit Events
+                    url: '#'
+              - page: Planning Toolkit
+                url: '#'
+                fifth-level:
+                  - page: Promote Your Event or Activity
+                    url: '#'
+                  - page: Bring Partners on Board
+                    url: '#'
+                  - page: Share Outcomes and Feedback
+                    url: '#'
+                  - page: Access Prevention Resources
+                    url: '#'
+              - page: Promotional Materials
+                url: '#'
+                fifth-level:
+                  - page: Toolkit Wristband
+                    url: '#'
+                  - page: Videos
+                    url: '#'
+                  - page: Logos and Stickers
+                    url: '#'
+                  - page: Web
+                    url: '#'
+                  - page: Print
+                    url: '#'
+              - page: Partners
+                url: '#'
+          - page: Native Connections
+            url: '#'
+            fourth-level:
+              - page: Publications and Resources
+                url: '#'
+              - page: Webinars
+                url: '#'
+              - page: Training and Technical Assistance
+                url: '#'
+                fifth-level:
+                  - page: Grantee Technical Assistants (GTA)
+                    url: '#'
+              - page: Contact Us
+                url: '#'
+          - page: Networking, Certifying, and Training Suicide Prevention Hotlines and the Disaster Distress Helpline
+            url: '#'
+          - page: Recovery Month
+            url: '#'
+          - page: Schools and Campus Health
+            url: '#'
+          - page: Section 223
+            url: '#'
+            fourth-level:
+              - page: About
+                url: '#'
+              - page: Quality Measures
+                url: '#'
+              - page: Webinar Series on Quality Measures
+                url: '#'
+              - page: Certification Guides and Resources
+                url: '#'
+              - page: Care Coordination
+                url: '#'
+              - page: Cultural Competence
+                url: '#'
+              - page: Goverance and Oversight
+                url: '#'
+          - page: Semana de Prevención
+            url: '#'
+            fourth-level:
+              - page: Acerca de
+                url: '#'
+              - page: Reto de prevención
+                url: '#'
+              - page: Webinarios
+                url: '#'
+              - page: Eventos y actividades
+                url: '#'
+              - page: Kit para la planeación
+                url: '#'
+              - page: Materiales de promoción
+                url: '#'
+              - page: Socios
+                url: '#'
+          - page: Synar
+            url: '#'
+            fourth-level:
+              - page: About Synar
+                url: '#'
+              - page: Requirements
+                url: '#'
+              - page: Synar's Success
+                url: '#'
+              - page: Annual Reports
+                url: '#'
+          - page: Talk. They Hear You. 
+            url: '#'
+            fourth-level:
+              - page: Mobile Application
+                url: '#'
+              - page: Parent Resources
+                url: '#'
+              - page: Partner Resources
+                url: '#'
+              - page: Partners
+                url: '#'
+              - page: About the Campaign
+                url: '#'
+              - page: Press Room
+                url: '#'
+          - page: The Interagency Coordinating Committee on the PRevention of Underage Drinking (ICCPUD)
+            url: '#'
+          - page: The Power of Language and Portrayals
+            url: '#'
+            fourth-level:
+              - page: Webcasts
+                url: '#'
+              - page: About the Initiative
+                url: '#'
+          - page: The Power of Perceptions and Unsderstanding
+            url: '#'
+            fourth-level:
+              - page: Webcasts
+                url: '#'
+          - page: TLOA Implementation 
+            url: '#'
+            fourth-level:
+              - page: TAP
+                url: '#'
+              - page: TAP Development Resources
+                url: '#'
+              - page: News and Events
+                url: '#'
+              - page: Programs for Native Youth
+                url: '#'
+              - page: About the TLOA
+                url: '#'
+          - page: Trauma and Violence
+            url: '#'
+          - page: Tribal Affairs
+            url: '#'
+          - page: Workforce
+
+  - title: Newsroom
+    url: '#'
+    second-level:
+      - page: Media Guideilnes for Bullying Prevention
+        url: '#'
+      - page: Press Announcements
+        url: '#'
+      - page: SAMHSA in the News
+        url: '#'
+      - page: Speeches and Presentations
+        url: '#'
+      - page: Infographics
+        url: '#'
+      - page: Logo Use Guidelines
+        url: '#'
+
+  - title: About Us
+    url: '#'
+    second-level:
+      - page: Who We Are
+        url: '#'
+        third-level:
+        - page: Leadership
+          url: '#'
+          fourth-level:
+            - page: Biographies
+              url: '#'
+        - page: Regional Administrators
+          url: '#'
+          fourth-level:
+            - page: Vacant (Region 1)
+              url: '#'
+            - page: Dennis O. Romero (Region 2)
+              url: '#'
+            - page: Jean Bennett (Region 3)
+              url: '#'
+            - page: Michael King (Region 4)
+              url: '#'
+            - page: Jeffrey Coady (Region 5)
+              url: '#'
+            - page: Karen Hearod (Region 6)
+              url: '#'
+            - page: Kimberly Nelson (Region 7)
+              url: '#'
+            - page: Charles Smith (Region 8)
+              url: '#'
+            - page: David Dickinson (Region 10)
+              url: '#'
+            - page: Resources
+              url: '#'
+        - page: Offices and Centers
+          url: '#'
+          fourth-level:
+              - page: OAS
+                url: '#'
+              - page: NMSUPL
+                url: '#'
+              - page: OFR
+                url: '#'
+              - page: OMTO
+                url: '#'
+              - page: OC
+                url: '#'
+              - page: CMHS
+                url: '#'
+              - page: CSAP
+                url: '#'
+              - page: CAST
+                url: '#'
+              - page: CBHSQ
+                url: '#'
+        - page: Laws and Regulations
+          url: '#'
+          fourth-level:
+            - page: Confidentiality Regulations FAQs
+              url: '#'
+            - page: Listening Session Comments on Substance Abuse Treatment Confidentiality Regulations
+              url: '#'
+        - page: Advisory Countcils
+          url: '#'
+      - page: Strategic Plan
+        url: '#'
+      - page: Budget
+        url: '#'
+        third-level:
+          - page: FY 2020 Budget
+            url: '#'
+          - page: FY 2019 Budget
+            url: '#'
+          - page: FY 2018 Budget
+            url: '#'
+          - page: FY 2017 Budget
+            url: '#'
+          - page: FY 2016 Budget
+            url: '#'
+          - page: FY 2015 Budget
+            url: '#'
+          - page: FY 2014 Budget
+            url: '#'
+          - page: FY 2013 Budget
+            url: '#'
+          - page: FY 2012 Budget
+            url: '#'
+          - page: FY 2011 Budget
+            url: '#'
+          - page: FY 2010 Budget
+            url: '#'
+          - page: FY 2009 Budget
+            url: '#'
+          - page: Contracts
+            url: '#'
+      - page: Advisory Councils
+        url: '#'
+        third-level:
+          - page: SAMHSA National Advisory Council
+            url: '#'
+            fourth-level:
+              - page: Council Charter
+                url: '#'
+              - page: Council Biographies
+                url: '#'
+              - page: Council Roster
+                url: '#'
+          - page: CMHS National Advisory Council
+            url: '#'
+            fourth-level:
+              - page: Council Charter
+                url: '#'
+              - page: Council Biographies
+                url: '#'
+              - page: Council Roster
+                url: '#'
+          - page: CASP National Advisory Council
+            url: '#'
+            fourth-level:
+              - page: Council Charter
+                url: '#'
+              - page: Council Biographies
+                url: '#'
+              - page: Council Roster
+                url: '#'
+          - page: CSAT National Advisory Council
+            url: '#'
+            fourth-level:
+              - page: Council Charter
+                url: '#'
+              - page: Council Biographies
+                url: '#'
+              - page: Council Roster
+                url: '#'
+          - page: Advisory Committee for Women's Services (ACWS)
+            url: '#'
+          - page: Drug Testing Advisory Board (DTAB)
+            url: '#'
+            fourth-level:
+              - page: Board Charter
+                url: '#'
+              - page: Board Roster
+                url: '#'
+          - page: Tribal Technical Advisory Committee (TTAC)
+            url: '#'
+            fourth-level:
+              - page: Committee Biographies
+                url: '#'
+              - page: Committee Charter
+                url: '#'
+              - page: Council Roster
+                url: '#'
+          - page: Interdepartmental Serious Mental Illness Coordinating Committee (ISMICC)
+            url: '#'
+            fourth-level:
+              - page: Charter
+                url: '#'
+              - page: Roster
+                url: '#'
+          - page: Meetings
+            url: '#'
+      - page: Connect with SAMHSA
+        url: '#'
+      - page: Contact Us
+        url: '#'
+
+  - title: Publications
+    url: '#'

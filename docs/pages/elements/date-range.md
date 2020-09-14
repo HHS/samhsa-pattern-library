@@ -2,20 +2,21 @@
 layout: page
 title: Date Range
 category: elements
-section: elements
 permalink: "/date-range/"
 ---
 
 ## Overview
 Date ranges are used most often as a filter for search results, but they can be useful in other instances.
 
-![date range](../assets/img/forms/date_range.png "Date Range")
+{% include /patterns/date-range/date-range.md %}
+
 
 **Contents**
 - [Functionality](#functionality)
 - [When used for forms](#formuse)
 - [When used for search](#searchuse)
 - [Accessibility](#accessibility)
+- [Code](#code)
 
 <a name="functionality"></a>
 ## Functionality
@@ -38,3 +39,15 @@ On select of either year, the result set is filtered to new date range.
 <a name="accessibility"></a>
 ## Accessibility
 Group these two inputs together with <fieldset> and describe the group with <legend>.
+
+<a name="code"></a>
+## Code
+### HTML
+```html
+  {% include /patterns/date-range/date-range.md %}
+```
+
+### SCSS
+```scss
+  {% include /patterns/date-range/date-range.scss %}
+```

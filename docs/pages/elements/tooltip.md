@@ -2,7 +2,6 @@
 layout: page
 title: Tooltip
 category: elements
-section: elements
 permalink: "/tooltip/"
 ---
 
@@ -19,36 +18,30 @@ Tooltips are used to give users extra information to users to explain usage of a
 <a name="design"></a>
 ## Design
 **Closed state**
-
-![closed state](../assets/img/forms/tooltip_closed.png "Closed State")
+{% include /patterns/tooltip/tooltip-closed.md %}
 
 **Open state**
-
-![open state](../assets/img/forms/tooltip_open.png "Open State")
+{% include /patterns/tooltip/tooltip-open.md %}
 
 <a name="functionality"></a>
 ## Functionality
 OnHover/OnTouch/OnFocus tooltip shows in open state.
 
-<a name="snippets"></a>
-## Code Snippets
-**html**
-```
-<i class="fas fa-question-circle"></i>
+
+<a name=“code”></a>
+### Code
+### HTML
+**closed**
+```html
+  {% include /patterns/tooltip/tooltip-closed.md %}
 ```
 
-**scss**
-*Tooltip Icon*
-font-size: 22px;
-color: #A3A7A9;
+**open**
+```html
+  {% include /patterns/tooltip/tooltip-open.md %}
+```
 
-**scss**
-*Tooltip Overlay*
-font-family: Tahoma, Verdana, Segoe, sans-serif;
-font-size: 12px;
-font-weight: regular;
-line-height: 15px;
-background-color: #FFFFFF;
-color: #4A4A4A;
-padding: 20px;
-border: solid 1px #DDDDDD;
+### SCSS
+```scss
+  {% include /patterns/tooltip/tooltip.scss %}
+```

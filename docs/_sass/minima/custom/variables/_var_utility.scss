@@ -1,0 +1,69 @@
+// Variables
+//==========================================================================
+
+//Warning from Omega
+//For a SCSS file in your theme to use the variables represented here, the line @import "_omega-style-vars.scss", "_omega-default-style-vars.scss"; must be at the top of the SCSS file.
+
+// You can add as many partials as needed and import them here
+// Be mindful of the order in which you import them
+//--------------------------------------------------------------------
+
+//Imports
+@import "var_colors";
+@import "var_grids";
+
+// Typography
+//-----------------------------------------------------
+$base-font-family: Tahoma, Verdana, Segoe, sans-serif;
+$heading-font-family: $base-font-family;
+
+// Font Sizes
+$base-font-size: 14px;
+
+// Font Weights
+$weight-regular: normal;
+$weight-bold: bold;
+
+// Line height
+$base-line-height: 1.5;
+$heading-line-height: 1.3;
+
+// Spacing, padding and indexes
+//-----------------------------------------------------
+$base-spacing: $base-line-height * 1em;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+$h2-spacing: 5px 0;
+
+//this is the padding for the mega menu
+$mega-menu-padding: 10px;
+
+//this is the padding for the buttons / list items in the side menu
+$side-menu-padding: 0.75em;
+
+// Borders
+//-----------------------------------------------------
+$base-border-radius: 0;
+$base-border-color: $light-gray;
+$base-border: 1px solid $base-border-color;
+$megamenu-border: 1px solid $light-gray;
+
+// Forms
+//-----------------------------------------------------
+//Variables to define our field types
+$form-input-text: 'input[type="text"], input[type="password"], input[type="search"], input[type="email"], input[type="tel"], input[type="url"], input[type="number"]';
+$form-input-buttons: 'input[type="submit"], input[type="reset"], input[type="button"], button';
+$form-input-dates: 'input[type^="date"], input[type="month"], input[type="week"], input[type="time"]';
+$form-input-not-radio: 'input:not([type="radio"]):not([type="checkbox"])';
+
+$form-focus-color: #3b99fc;
+$form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
+$form-box-shadow-focus: 0 0 5px rgba($form-focus-color, 0.7);
+$form-field-bg: $white;
+$form-padding: $base-spacing / 3;
+$form-line-height: 2.2;
+
+// Transitions
+//-----------------------------------------------------
+$base-duration: 150ms;
+$base-timing: ease;

@@ -2,7 +2,6 @@
 layout: page
 title: Tabs
 category: elements
-section: elements
 permalink: "/tabs/"
 ---
 
@@ -15,11 +14,13 @@ Be aware of how many tabs you have and the ability of the tab to fit on smaller 
 - [Design](#design)
 - [Functionality](#functionality)
 - [Accessibility](#accessibility)
+- [Code](#code)
 
 <a name="design"></a>
 ## Design
 This example is from the Data section of SAMHSA.
-![tabs](../assets/img/forms/tabs.jpg "Tabs")
+{% include /patterns/tabs/tabs.md %}
+
 
 <a name="functionality"></a>
 ## Functionality
@@ -54,3 +55,15 @@ Keyboard Expectations
 - ↑ ↓ = Cycles tab focus (vertical tabs)
 - Home = Focus first tab
 - End = Focus last tab
+
+<a name="code"></a>
+## Code
+### HTML
+```html
+  {% include /patterns/tabs/tabs.md %}
+```
+
+### SCSS
+```scss
+  {% include /patterns/tabs/tabs.scss %}
+```

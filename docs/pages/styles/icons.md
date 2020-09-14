@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Font Awesome Icons
-category: component
-section: styles
+category: styles
 permalink: "/icons/"
 ---
 

@@ -1,0 +1,39 @@
+// This "should" be the mixin for all buttons
+@mixin button(){
+  appearance: none;
+  background-color: $teal;
+  border: 1px solid $teal;
+  border-radius: 0;
+  color: $white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $base-font-family;
+  font-weight: $weight-regular;
+  line-height: $form-line-height;
+  padding: 0 1em;
+  margin: 0 $small-spacing / 2 $small-spacing / 2 0;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  &:hover,
+  &:active,
+  &:focus{
+    background-color: $dark-gray2;
+    //border: 1px solid $dark-gray2;
+    // color: $white;
+  }  
+  &:focus {
+    box-shadow: $form-box-shadow-focus;
+  }
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    &:hover,
+    &:active,
+    &:focus{
+      background-color: $dark-gray2;
+    }
+  }
+}

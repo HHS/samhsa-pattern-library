@@ -2,7 +2,6 @@
 layout: page
 title: Responsive Footer
 category: global-component
-section: global-component
 permalink: "/footer/"
 ---
 
@@ -23,11 +22,8 @@ The footer consists of quick links, language assistance links, contact informati
 ![footer small screen](../assets/img/footer/sm-footer.png)
 
 
-
 ## Large & Extra Large Screens
 ![footer large screen](../assets/img/footer/lg-footer.png)
-
-
 
 <a name="social"></a>
 ## Social links
@@ -40,19 +36,26 @@ This links are represented as actionalble icons. The icons are from the FontAwes
 - LinkedIn -  icon: linkedin - color: #0E76A8 - link [https://www.linkedin.com/company/substance-abuse-and-mental-health-services-administration/](https://www.linkedin.com/company/substance-abuse-and-mental-health-services-administration/)
 - RSS - icon: rss-square - color: #f89c40 - link [https://www.samhsa.gov/rss](https://www.samhsa.gov/rss)
 - Blog - icon: "custom created" - color: #1b7391 - link [https://blog.samhsa.gov/](https://blog.samhsa.gov/)
+**Visual Styling**
+- On default, footer links are body text color and underlined.
+  - color: $charcoal (#4A4A4A)
+  - text-decoration: underline;
+- On hover, links change to ruby with underline
+  - color: $ruby (#A82D2B)
+  - text-decoration: underline;
 
 <a name="newsletter"></a>
 ## Newsletter Sign up
-This module allows users to subscribe to the SAMHSA newsletter. The module is located on the footer, but may be used in other areas of the site. Please refer to the documentatation on the [Newsletter Module]({{ site.url }}samhsa-newsletter) page.
+This module allows users to subscribe to the SAMHSA newsletter. The module is located on the footer, but may be used in other areas of the site. Please refer to the documentatation on the [Newsletter Module]({{ site.url }}/samhsa-newsletter) page.
 
 
 <a name="language"></a>
 ## Language links
 All links are pointed to anchor tags on the [Language Services](https://www.samhsa.gov/language-assistance-services) page.
 **Specifications**
-Title text is in bold.
-For the links: On Hover – underline appears.
-For "|" – please use CSS rather than creating a physical pike, because of 508 concerns.
+- Title: text is in bold.
+- Links: On Hover – underline appears.
+- Pike sybol "|" : please use CSS rather than creating a physical pike, because of 508 concerns.
 **Functionality** OnClick/OnTap of icon, system displays the target in parent window.
 
 <a name="nav"></a>
@@ -86,5 +89,5 @@ Content:
 
 <a name="icons"></a>
 ## Footer Icons
-- [SAMHSA Logo]({{ site.url }}logos) - OnClick/OnTap of link system displays [https://www.samhsa.gov/](https://www.samhsa.gov/) in parent window.
+- [SAMHSA Logo]({{ site.url }}/logos) - OnClick/OnTap of link system displays [https://www.samhsa.gov/](https://www.samhsa.gov/) in parent window.
 - [HHS Logo](https://www.hhs.gov/web/policies-and-standards/web-policies/logo-seal-and-symbol-policies/index.html) - OnClick/OnTap of link system displays [https://www.hhs.gov/](https://www.hhs.gov/) in new window.
