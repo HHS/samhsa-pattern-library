@@ -75,11 +75,15 @@
 	          padding: $side-menu-padding*.5 0 0 $side-menu-padding*.5;
 	          background-color: $sm-bg-3;
 
-	          li{
-	             padding-left:10px;
-				}
-             }//ul - level 3
-         }//li
+	            li{
+	              padding-left:10px;
+				      }
+            }//ul - level 3
+
+            &:active a {
+              font-weight: bold;
+            }
+        }//li
     }//ul - level 2
   }//ul - level 1
 

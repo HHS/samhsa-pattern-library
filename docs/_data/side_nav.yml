@@ -62,6 +62,8 @@ side-navigation:
   - title: Components
     url: /cards
     second-level:
+      - page: Alert
+        url: /alert
       - page: Cards
         url: /cards
       - page: SAMHSA Newsletter

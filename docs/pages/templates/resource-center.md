@@ -80,7 +80,7 @@ Search header contains:
 1. Section Title - H3
 2. Sort - OnSelect, system displays the result set in the order that matches the users choice
   - Featured
-  - Most Relevant 
+  - Most Relevant
   - Most Recent
   - Oldest
 3. View - OnSelect, system displays the number of items in the result set that matches the users choice
@@ -154,8 +154,16 @@ Resource pages use the standard pagination. Find out more [about pagination]({{ 
 **EBPRC**
 <table>
   <tr>
-    <td><img src="../assets/img/resource-center/thumb-ebprc-concept.png"></td>
-    <td><img src="../assets/img/resource-center/thumb-sm-ebprc-concept.png"></td>
+    <td>
+      <label class="btn" for="modal-ebrc-lg">
+        <img src="../assets/img/resource-center/thumb-ebprc-concept.png">
+      </label>
+    </td>
+    <td>
+      <label class="btn" for="modal-ebrc-sm">
+        <img src="../assets/img/resource-center/thumb-sm-ebprc-concept.png">
+      </label>
+    </td>
   </tr>
   <tr>
     <td>large screen</td>
@@ -166,11 +174,28 @@ Resource pages use the standard pagination. Find out more [about pagination]({{ 
 **DBHIS**
 <table>
   <tr>
-    <td><img src="../assets/img/resource-center/thumb-dbhis-concept.png"></td>
-    <td><img src="../assets/img/resource-center/thumb-sm-dbhis-concept.png"></td>
+    <td>
+      <label class="btn" for="modal-dbhis-lg">
+        <img src="../assets/img/resource-center/thumb-dbhis-concept.png">
+      </label>
+    </td>
+    <td>
+      <label class="btn" for="modal-dbhis-sm">
+        <img src="../assets/img/resource-center/thumb-sm-dbhis-concept.png">
+      </label>
+    </td>
   </tr>
   <tr>
     <td>large screen</td>
     <td>small screen</td>
   </tr>
 </table>
+
+
+{% include snippets/modal.html id="modal-ebrc-lg" title="EBPRC - large screen" img="../assets/img/resource-center/ebprc-concept.png" %}
+
+{% include snippets/modal.html id="modal-ebrc-sm" title="EBPRC - small screen" img="../assets/img/resource-center/sm-ebprc-concept.png" %}
+
+{% include snippets/modal.html id="modal-dbhis-lg" title="DBHIS - large screen" img="../assets/img/resource-center/dbhis-concept.png" %}
+
+{% include snippets/modal.html id="modal-dbhis-sm" title="DBHIS - small screen" img="../assets/img/resource-center/sm-dbhis-concept.png" %}
