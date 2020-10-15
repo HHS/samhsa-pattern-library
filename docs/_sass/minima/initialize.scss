@@ -75,5 +75,7 @@ $on-large:         $on-laptop !default;
   "minima/layout",           // Defines structure and style based on CSS selectors.
   "minima/custom/custom-styles",     // Hook to override existing styles.
   "minima/custom/tertiary-menu",
-  "minima/custom/modal"      //Testing Modal styles
+  "minima/custom/modal",      //Modal styles
+  "minima/custom/main-nav", //Main Nav styles
+  "minima/custom/header-nav" //Top Header Nav styles
 ;

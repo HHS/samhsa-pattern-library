@@ -1,9 +1,10 @@
 .page-content {
   @media screen and (min-width: $medium-breakpoint){
     display: flex;
-    flex-flow: c
-    olumn no-wrap;
-    margin-left: 2%;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    margin: auto;
+    //margin-left: 2%;
   }
 }
 .section-nav {
@@ -13,6 +14,7 @@
 }
 .section-content {
   @media screen and (min-width: $medium-breakpoint){
-    max-width: 575px;
+    //max-width: 575px;
+    max-width: 1000px;
   }
 }

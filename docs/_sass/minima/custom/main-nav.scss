@@ -1,0 +1,77 @@
+/* [Object] Header and Main Navigation
+ * =============================== */
+
+ //Main Nav styling
+.main-nav-menu ul, .header-nav ul {
+    margin: 0;
+    padding: 0;
+    background: #1e384b;
+    width: 100%;
+    clear: both;
+    float: none;
+    min-height: 45px;
+    list-style-type: none;
+
+    li {
+        float: left;
+        position: relative;
+
+        a {
+            display: inline-block; //a is an inline element. Needs block for full height
+            font-weight: 400;
+            text-decoration: none;
+            height: 41px;
+            line-height: 41px;
+            //text-align: center!important;
+            padding: 0 .75em;
+            letter-spacing: .03em;
+            color: #fff;
+            font-size: 16px;
+
+            &:hover {
+              border-bottom: 4px solid #cd3835;
+            }
+        }
+
+        ul {
+            position: absolute;
+            float: none;
+            top: 45px;
+            left: 0;
+            z-index: 499;
+            background: #eee;
+            border: 1px solid #cdcdcd;
+            border-radius: unset;
+            padding: 15px 30px!important;
+            width: 378px!important;
+
+            li {
+              width: 100%;
+              background: #eee;
+              color: #1e384b;
+              font-size: 16px;
+              line-height: 20px;
+              border-bottom: 1px solid #cdcdcd;
+
+                a {
+                    display: block;
+                    background: #eee;
+                    color: #1f419a;
+                    padding-right: unset;
+                    padding: .5em 1em;
+
+                    &:hover {
+                      color: #932725;
+                      border-bottom: none;   
+                    }
+                }
+
+                &:last-child {
+                  border: none;
+                }
+
+                .third-level { display: none!important; }
+            }
+        }
+    }
+}

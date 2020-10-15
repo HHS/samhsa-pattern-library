@@ -1,0 +1,10 @@
+header-nav-title: Pattern Lab Header Nav
+header-nav:
+  - title: Home
+    url: /
+  - title: Design Patterns
+    url: /colors
+  - title: Templates
+    url: /resource-center
+  - title: Roadmap
+    url: /roadmap
