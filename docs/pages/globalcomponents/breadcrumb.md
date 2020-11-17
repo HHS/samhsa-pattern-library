@@ -10,7 +10,7 @@ permalink: "/breadcrumbs"
 Breadcrumbs are used to help users navigate the SAMHSA website.
 
 ## Usage
-Breadcrumbs are used on breakpoints large and greater. The are displayed on all pages with the exception of Home and Search.
+Breadcrumbs are used on breakpoints large and greater. They are displayed on all pages with the exception of Home and Search.
 
 ## Functionality
 * All pages in the breadcrumb are links accept the current page.

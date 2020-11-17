@@ -25,9 +25,10 @@ Link styles for body text are:
 - line Height: 20px
 - color: $sapphite (#1F419A)
 - text-decoration: underline;
-OnHover
+
+OnHover & OnFocus
 - color: $ruby (#A82D2B)
-- text-decoration: underline;
+- text-decoration: none;
 
 **Accessibility**
 - It is OK to link a full sentence, but avoid longer.
@@ -78,7 +79,8 @@ Link styles for body text are:
 - line Height: 20px
 - color: $sapphite (#1F419A)
 - text-decoration: none;
-OnHover
+
+OnHover & OnFocus
 - color: $ruby (#A82D2B)
 - text-decoration: underline;
 

@@ -32,6 +32,7 @@ There are eight different card designs available for use
 - [Right Flag](#right-flag)
 - [Left Flag with Button](#left-flag-button)
 - [Right Flag with Button](#left-flag-button)
+- [Get Help Card](#get-help-card)
 - [Hover States](#hover-state)
 
 <a name="card"></a>
@@ -140,6 +141,7 @@ There are eight different card designs available for use
 - Title: character limit 50
 - Body: character limit 120
 - Image
+- URL (whole card is link)
 
 **Design Example**
 
@@ -165,6 +167,7 @@ There are eight different card designs available for use
 - Title: character limit 50
 - Body: character limit 120
 - Image
+- URL (whole card is link)
 
 **Design Example**
 
@@ -189,6 +192,7 @@ There are eight different card designs available for use
 - Title: character limit 50
 - Body: character limit 120
 - Image
+- URL (whole card is link)
 
 **Design Example**
 
@@ -213,6 +217,7 @@ There are eight different card designs available for use
 - Title: character limit 50
 - Body: character limit 120
 - Image
+- URL (whole card is link)
 
 **Design Example**
 
@@ -231,6 +236,33 @@ There are eight different card designs available for use
   {% include /patterns/cards/right-flag-button.scss %}
 ```
 
+<a name="get-help-card"></a>
+## Get Help
+**Fields in use:**
+- Title: character limit 50
+- Body: character limit 120
+- URL: who card links to webpage or phone number dial/prompt
+
+**Functionality**
+The Get Help cards are seen on the homepage, and may be used in other sections to draw attention to Find Treatment page, locators or helplines. The entire card may be clicked/tapped - the biggest difference is, the card would either bring a user to webpage or have the users browser prompt to call the number associated with the card. So the code needs to reflect the ability to dial the phone number displayed.
+
+**Design Example**
+
+![get help card](../assets/img/cards/get-help-card.png)
+
+{% include /patterns/cards/get-help-card.md %}
+
+### Code
+### HTML
+```html
+  {% include /patterns/cards/get-help-card.md %}
+```
+
+### SCSS
+```scss
+  {% include /patterns/cards/get-help-card.scss %}
+```
+
 <a name="hover-state"></a>
 ## Hover States
 
@@ -239,14 +271,14 @@ There are eight different card designs available for use
 ![card hover](../assets/img/cards/card-hover.png)
 ![flag hover](../assets/img/cards/flag-hover.png)
 ![public messages hover cards](../assets/img/cards/public-messages-hover-cards.png)
-
+![get help hover](../assets/img/cards/get-help-card-hover.png)
 
 
 ### Functionality
 - The entire card is the link. Although only the card title displays as a link and shows the hover state.
 - The thumbnail is decorative and has its altext set to null
 - OnHover - titles underline, buttons change color states and the shadow drop appears around entire card. See design examples above
-- OnClick/OnTap system displays target page
+- OnClick/OnTap system displays target page - for Get Help, it may dial a phone number or prompt the user to dial the number depending on the browser and device.
 
 
 ### Accessbility

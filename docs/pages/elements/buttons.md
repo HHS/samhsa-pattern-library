@@ -9,6 +9,10 @@ permalink: "/buttons/"
 {% include patterns/buttons/buttons.md %}
 
 
+**Secondary Button Hover State**
+
+![secondary button hover](../assets/img/buttons/secondary-button-hover.png)
+
 ## Overview
 Buttons should be used for important actions on your site and for submitting forms. There should be realitively few buttons on a page... please consider when a link is more appropriate.
 

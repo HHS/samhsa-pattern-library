@@ -111,7 +111,7 @@ _see [accordions]({{ site.url }}/accordion) for more information_
 ## List Item
 Each return item contains:
 1. Resource Title - H3 - links to source
-2. Sub-title - H6 (optinal)
+2. Sub-title - H6 (optional)
 3. Publication Date - body text
 4. Resource Description - body text
 5. CTA - url link to source - content =  "Get this Resource"
