@@ -42,7 +42,7 @@ This links are represented as actionalble icons. The icons are from the FontAwes
   - text-decoration: underline;
 - On hover, links change to ruby with underline
   - color: $ruby (#A82D2B)
-  - text-decoration: underline;
+  - text-decoration: none;
 
 <a name="newsletter"></a>
 ## Newsletter Sign up
@@ -54,14 +54,14 @@ This module allows users to subscribe to the SAMHSA newsletter. The module is lo
 All links are pointed to anchor tags on the [Language Services](https://www.samhsa.gov/language-assistance-services) page.
 **Specifications**
 - Title: text is in bold.
-- Links: On Hover – underline appears.
+- Links: Underline on default, On Hover – underline disappears.
 - Pike sybol "|" : please use CSS rather than creating a physical pike, because of 508 concerns.
 **Functionality** OnClick/OnTap of icon, system displays the target in parent window.
 
 <a name="nav"></a>
 ## Footer Navigation
 **Specifications**
-On Hover – underline appears.
+Links: Underline on default, On Hover – underline disappears.
 For "|" – please use CSS rather than creating a physical pike, because of 508 concerns.
 **Functionality** OnClick/OnTap of icon, system displays the target in parent window.
 
@@ -78,7 +78,7 @@ For "|" – please use CSS rather than creating a physical pike, because of 508 
 - EEO/No FEAR Act Data - [https://www.hhs.gov/about/agencies/asa/eeo/resources/no-fear-act/index.html](https://www.hhs.gov/about/agencies/asa/eeo/resources/no-fear-act/index.html)
 - Office of the Inspector General - [https://oig.hhs.gov/](https://oig.hhs.gov/)
 - U.S. Department Health & Human Services [https://www.hhs.gov](https://www.hhs.gov)
-- Have a question about goverment services? Contact [USA.gov](https://www.usa.gov)
+- Have a question about goverment services? [Contact USA.gov](https://www.usa.gov)
 
 <a name="text"></a>
 ## Footer text
