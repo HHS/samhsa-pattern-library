@@ -43,6 +43,7 @@ Unique Audiences
 Unique Condition
 - Co-Occurring Disorders
 - Depression
+- HIV/AIDS
 - Opioid Overdose Prevention
 - Opioid Use Disorder Treatment
 - Pain Management
