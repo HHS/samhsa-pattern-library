@@ -20,7 +20,7 @@ _Content maximums are suggested, not hardcoded_
 | Resource Center Title | 80 characters max
 | Summary | 250 characters max
 | Body | no character limit
-| Thumbnail | |
+| Thumbnail | 150x150 pixels |
 | Feature Flag | toggle to indicate that item is a feature
 | Collection | **note** each resource center can author their own collection items
 | Authoring Organization |  
