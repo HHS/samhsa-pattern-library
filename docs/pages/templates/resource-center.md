@@ -20,6 +20,8 @@ _Content maximums are suggested, not hardcoded_
 | Resource Center Title | 80 characters max
 | Summary | 250 characters max
 | Body | no character limit
+| Thumbnail | |
+| Feature Flag | toggle to indicate that item is a feature
 | Collection | **note** each resource center can author their own collection items
 | Authoring Organization |  
 | Resource Type | option - PDF or Link 
@@ -29,6 +31,7 @@ _Content maximums are suggested, not hardcoded_
 
 ## Taxonomy
 Unique Audiences
+{only available in authoring -- do not display on the front end}
 - Care Providers
 - Clinicians
 - Community Organizations
