@@ -2,7 +2,7 @@
 layout: page
 title: The SAMHSA Grid
 category: grids
-permalink: "/Grid/"
+permalink: "/grids/"
 ---
 
 → USWDS - [Layout Grid](https://designsystem.digital.gov/utilities/layout-grid/)
