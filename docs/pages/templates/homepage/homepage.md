@@ -7,18 +7,18 @@ permalink: "/homepage/"
 
 
 ## Content Type
-| id | (auto-generated) |
-| url | link to destination |
-| title | suggested length maximum |
-| body | suggested length maximum |
-| thumbnail | size |
-| featured image | size |
-| source | states the site section or external agency |
-| placement | targets which section content appears (Feature, Current Topics, etc) |
-| position | where the item appears in the module (numbered left to right) |
-| status | active or inactive |
-| creation date | auto-generated |
-| last updated date | auto-generated & editable |
+| id                | (auto-generated)                                                     |
+|url                | link to destination                                                  |
+| title             | suggested length maximum                                             |
+| body              | suggested length maximum                                             |
+| thumbnail         | size                                                                 |
+| featured image    | size                                                                 |
+| source            | states the site section or external agency                           |
+| placement         | targets which section content appears (Feature, Current Topics, etc) |
+| position          | where the item appears in the module (numbered left to right)        |
+| status            | active or inactive                                                   |
+| creation date     | auto-generated                                                       |
+| last updated date | auto-generated & editable                                            |
 
 ## Authoring
 Every element of the home page should be authored through a single content interface (except for Get Help). Author's will create the item they want and then direct it to the area on the page it is intending to go. Choosing a placement will make the current item in that placement inactive -- there should be a warning before commiting.
