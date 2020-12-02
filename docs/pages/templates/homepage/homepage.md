@@ -7,12 +7,13 @@ permalink: "/homepage/"
 
 
 ## Content Type
-| id                | (auto-generated)                                                     |
-|url                | link to destination                                                  |
+
+| id                | auto-generated                                                       |
+| url               | link to destination                                                  |
 | title             | suggested length maximum                                             |
 | body              | suggested length maximum                                             |
-| thumbnail         | size                                                                 |
-| featured image    | size                                                                 |
+| thumbnail         |                                                                      |
+| feature image     |                                                                      |
 | source            | states the site section or external agency                           |
 | placement         | targets which section content appears (Feature, Current Topics, etc) |
 | position          | where the item appears in the module (numbered left to right)        |
