@@ -14,7 +14,7 @@ permalink: "/homepage-feature/"
 | title | h1
 | body | text
 | url | button - label = "learn more |
-| featured image | |
+| featured image | 660x280 pixels |
 
 
 ## Functionality
