@@ -22,7 +22,8 @@ _Content maximums are suggested, not hardcoded_
 | Body | no character limit
 | Thumbnail | 150x150 pixels |
 | Feature Flag | toggle to indicate that item is a feature
-| Collection | **note** each resource center can author their own collection items
+| Collection |  (dropdown ) **note** each resource center can author their own collection items
+| Tags | mutli-select list
 | Authoring Organization |  
 | Resource Type | option - PDF or Link 
 | File Attachment |  
