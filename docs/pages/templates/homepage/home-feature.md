@@ -12,7 +12,7 @@ permalink: "/homepage-feature/"
 (see more about the content type on the [main template]({{ site.url }}/homepage) page)
 
 | title | h1
-| body | text
+| body | text - 140 characters
 | url | button - label = "learn more |
 | featured image | 660x280 pixels |
 
