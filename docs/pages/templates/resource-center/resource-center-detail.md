@@ -50,7 +50,7 @@ Module title | h4 | content = "Other Resources Like This"
 Tags | buttons | for each child taxonomy term a button is displayed with the term as its name.
 
 ### Functionality
-- OnClick/OnTap/OnEnter of button - the resouce landing page is displayed in current widown with the results pre-filtered with the associated term
+- OnClick/OnTap/OnEnter of button - the resource landing page is displayed in current window with the results pre-filtered with the associated term
 
 
 **Examples**

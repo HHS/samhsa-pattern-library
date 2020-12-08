@@ -27,7 +27,7 @@ _Content maximums are suggested, not hardcoded_
 | Authoring Organization |  
 | Resource Type | option - PDF or Link 
 | File Attachment |  
-| File Size | 
+| File Size | (auto-generated)
 | Resource URL | 
 
 ## Taxonomy
