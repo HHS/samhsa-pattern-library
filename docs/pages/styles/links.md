@@ -17,7 +17,7 @@ permalink: "/links/"
 - [Footer Links](#footer)
 
 
-<a href="body"></a>
+<a name="body"></a>
 ## Body Text
 Link styles for body text are:
 - family: Tahoma 400
@@ -39,7 +39,7 @@ OnHover & OnFocus
  **Analytics**
  Tracking user engagement on pages is key to understanding user interest in a given action. All links should be considered for analtic tagging.
 
-<a href="ext"></a>
+<a name="ext"></a>
 ## External Links
 Reference: [https://digital.gov/resources/required-web-content-and-links/?dg#external-links](https://digital.gov/resources/required-web-content-and-links/?dg#external-links)
 
@@ -70,7 +70,7 @@ Font Awesome can be used as a font, SVG, or a PNG. Some sites have had issues wi
 - As SVG images consist of tags like HTML, their code can also be used in HTML5 directly. In this case you can provide a text alternative in a <title> element within the SVG image. To improve accessibility support, that title should be referenced from an aria-labelledby attribute of the <svg> element, for example: <svg aria-labelledby="svgtitle1"> <title id="svgtitle1">Settings</title> [other svg code] </svg>
 
 
-<a href="header"></a>
+<a name="header"></a>
 ## Header Text as link
 We headers are used as links the header use these styles. Note, there is no underline on default, only on hover or focus.
 Link styles for body text are:
@@ -91,7 +91,7 @@ Download links include the file type and size.
 Example - [Download this document (PDF \| 12.5KB)](#)
 
 
-<a href="images"></a>
+<a name="images"></a>
 ## Image Links
 Use of images as links should be avoided where possible. Instead an image should be combined with a clear call to action (cta) in the form of a text link or button.
 **Accessibility**
@@ -103,7 +103,7 @@ The second example here is for use in context of a pattern like a search return 
 **Alt Text** The image should be set to null for the alt-text in these cases since it is being used as decoration.
 **IF**, however, the image is used as navigation without a text link or button. Be sure to use aria-labels to describe the link destination.
 
-<a href="cards"></a>
+<a name="cards"></a>
 ## Card Links
 Use of cards as navigation is common across the site. A few rules should be followed when using.
 - Images are decoration in cards and should have their alt-text set to null
@@ -112,17 +112,17 @@ Use of cards as navigation is common across the site. A few rules should be foll
 - The full card is clickable/tapable
 _for more information about [cards]({{ site.url }}/cards), please see the cards specifications._
 
-<a href="buttons"></a>
+<a name="buttons"></a>
 ## Buttons
 Please, see the [buttons]({{ site.url }}/buttons) specifications.
 
-<a href="menu"></a>
+<a name="menu"></a>
 ## Menu Links
 Please see more about the visual aspects of links for each menu
 - [Desktop Header]({{ site.url }}/header-lg) (Primary & secondary nav)
 - [Mobile Header]({{ site.url }}/header-sm) (Mobile menu)
 - [Tertiary Nav]({{ site.url }}/tertiary-nav)
 
-<a href="footer"></a>
+<a name="footer"></a>
 ## Footer Links
 See [footer spec]({{ site.url }}/footer) for visual treatments of links in the footer.
