@@ -27,7 +27,7 @@ The left navigation is visiable on this template -- however, the detail pages ar
 
 Page Title | H1
 Resource Cover | image | optional | 50% float left
-Resource Description | plain text | 250 characters max
+Resource Description | plain text | 450 characters max
 Authoring Agency | content = "Authoring Agency: {agency name}" | Label is bold
 Resource Link | content = "See item in {resource destination}" fa-angle-double-right |  see notes below
 Download Link | button | Button Label = fa-download "Download" | PDF Size = "PDF ({pdf size})
