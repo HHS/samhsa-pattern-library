@@ -2,344 +2,117 @@
 layout: page
 title: Resource Center Landing Template
 category: templates
-permalink: "/resource-center/"
+permalink: "/resource-center-landing/"
 ---
 
-The Resource Center experience was created for programs and centers to house their content and resources. The experience is meant to create a common structure that is easier to manage for both authoring and development, but also to create a consistent user experience. The first two resources making use of this experience are the Evidence Based Practices Resource Center (EBRPC) and Disaster Behavioral Health Information Series (DBHIS).
+The resource center template should be used for sites that list out resources such as the Evidence Based Practices Resource Center (EBRPC) and Disaster Behavioral Health Information Series (DBHIS). The list is a filterable and searchable index that links users to publications or resources. Detail pages are available to house any resource that needs to live with in the respective center, otherwise the list will point directly to item.
 
-The resources for the centers will be made available through global search, and through an internal search in the program area. The program experience consists of both a landing page which list the resources and a detail page which will can more information before directing the user to the resource.
+## Contents
+- [Page Load](#load)
+- [breadcrumb](#breadcrumb)
+- [Page Header](#header)
+- [Search Bar](#bar)
+- [Filters](#filters)
+- [Search Header](#search)
+- [Mobile Search and Filter Accordion](#mobile)
+- [List Item](#item)
+- [Pagination](#pagination)
+- [Full Page Example](#example)
 
-## Design
-- [Landing Page Template]({{ site.url }}/resource-center-landing)
-- [Detail Page Template]({{ site.url }}/resource-center-detail)
 
-## Content Type
-_Content maximums are suggested, not hardcoded_
+<a href="load"></a>
+## On Page Load
+When the page is first loaded, content load in an unflitered state.
+- **Sort** - If available, items are sorted first by _featured_ and the by _most recent_. If _featured_ doesn't exist, sort by _most recent_. The sort drop down displays either "Featured Resources" or "Latest Resources" according to which of these two conditions apply. (see more about [sort](#search) below)
+- **View** - at default 15 items are shown on page. View drop down displays "15".(see more about [view](#search) below)
 
-| Resource Center Name | (for example EBPRC or DBHIS)
-| Resource Center Title | 80 characters max
-| Summary | 250 characters max
-| Body | no character limit
-| Thumbnail | 150x150 pixels |
-| Feature Flag | toggle to indicate that item is a feature
-| Collection | **note** each resource center can author their own collection items
-| Authoring Organization |
-| Resource Type | option - PDF or Link
-| File Attachment |
-| File Size |
-| Resource URL |
+<a href="breadcrumb"></a>
+## Breadcrumb
 
-## Taxonomy
-The taxonomy terms help categorize and filter the list of resources provided by each center.
+Resource pages use the standard breadcrumbs. Find out more [about breadcrumbs]({{ site.url }}/breadcrumbs).
 
-When designing a resource center page, the filters should appear in order of importance:
-1. Resource Topic
-2. Health Condition
-3. Substances
-4. Target Audience
-5. Resource Population
-6. Treatment, Prevention, & Recovery
-7. Professional & Research Topics
-8. Resource Type
-9. Authoring Organization
+<a href="header"></a>
+##  Page Header
+![header](../assets/img/resource-center/page-header.png)
 
-### Tagging Guidance
-Only one type of term is required: Resource Topic. The Resource Topic term also indicates which Resource Center the resource belongs to and is necessary to ensure it shows up on the correct center page.
+The page header consist of:
+1. Page Title - H1
+2. Page Description - body text
+3. Navigational links - (Optional) separated by "\|".
 
-It is strongly recommended that content owners select a single tag for Resource Type and Source for every resource, but these tags are not required in the Content Management System (CMS).
+<a href="bar"></a>
+## Search Bar
+![bar](../assets/img/resource-center/search-bar.png)
 
-Please note that while all the non-center-specific terms are available to everyone for use, not every resource center opts to use them. For example, a center can decide not to tag their resources with Professional & Research Topics tags.
+The search bar is centered at 70% width of the content area.
+### Fields:
+- Input \| Content: "Search Our Resources"
+- Submit Button \| Content: "Submit"
 
-### Resource Topic
-Note: The Resource Topic terms are unique to every resource collection (e.g., Collections for DBHIS, Portals for EBPRC).
-- Evidence-Based Practices Resource center (EBPRC)
-  - Educational Resources
-  - Mental Health Treatment
-  - Prevention
-  - Recovery
-  - Substance Abuse Treatment
-  - Disaster Behavioral Health Information Series (DBHIS)
-  - Acute Interventions
-  - American Indian & Alaska Native Tribal-specific Resources
-  - Animals & Disasters
-  - Children & Youth
-  - Disaster Apps
-  - Disaster Responders
-  - Disaster-related Funding Opportunities
-  - Disaster-Specific Resources
-    - Chemical & Biological Events
-    - Disease Outbreak
-    - Drought
-    - Earthquake
-    - Extreme Cold
-    - Extreme Heat
-    - Flood
-    - Hurricane
-    - Mass Violence or Riots
-    - Public Health Emergencies
-    - Technological Disaster
-    - Terrorism
-    - Tornado
-    - Tsunami
-    - Wildfire
-    - Winter Storm
-  - Faith-based Communities & Spiritual Leaders
-  - Languages Other Than English
-  - Mass Violence/Community Violence
-  - Military Personnel
-  - Older Adults
-  - Online Disaster Behavioral Health Trainings
-  - People With Disabilities & Other Functional and Access Needs
-  - Resilience & Stress Management
-  - Rural Populations
-  - Serious Mental Illness & Serious Emotional Disturbance
-  - Substance Use Disorders & Disasters
-  - Suicide & Disasters
-  - Women & Disasters
+### Functionality:
+- OnClick / OnTap of button, system uses the content of the input to search the collection (titles, short description, taxonomy terms). The resource list is updated to show matching results
+_(see more about [form field specifications]({{ site.url }}/forms))_
 
-### Health Condition
-- Alcohol Abuse
-- Anxiety Disorders & Phobias
-- Attention-Deficit-Hyperactivity Disorder
-- Binge Drinking
-- Bipolar Disorder
-- Bullying
-- Chronic Pain
-- Co-Occurring Disorders
-- Conduct Disorders
-- Dementia
-- Depression
-- Driving While Intoxicated
-- Eating Disorders
-- Fetal Alcohol Spectrum Disorder
-- First Episode Psychosis
-- Grief
-- Hepatitis
-- HIV & AIDS
-- Infectious Diseases
-- Injection Drug Use
-- Mental Illness
-- Mortality
-- Obsessive Compulsive Disorder
-- Opioid Overdose Prevention
-- Opioid Use Disorder Treatment
-- Overdose
-- Pain Management
-- Paranoia & Paranoid Disorders
-- Personality Disorder
-- Posttraumatic Stress Disorder
-- Psychosis
-- Schizophrenia
-- Serious Emotional Disturbances
-- Serious Mental Illness
-- Serious Psychological Distress
-- Severe Emotional Disturbance
-- Sexual Trauma
-- Substance Use Disorders
-- Substance Use Prevention
-- Substance Use Recovery
-- Substance Use Treatment
-- Suicide
-- Trauma
-- Traumatic Brain Injury
-- Underage Drinking
-- Violence
 
-## Substances
-- Alcohol
-- Illicit Drugs
-- Marijuana
-- Opioids
-- Prescription Drugs
-- Stimulants
-- Tobacco
+<a href="filters"></a>
+## Filters
 
-### Target Audience
-- Adolescents as Audience
-- American Indian & Alaska Native
-- Child Care Providers
-- Children as Audience
-- College Students as Audience
-- Community Coalitions
-- Crisis Counselors
-- Disaster Response Workers as Audience
-- Disaster Survivors as Audience
-- Educators
-- Employers
-- Family and Advocates
-- Funders
-- Grant Seekers and Grantees
-- HHS Staff
-- Information Professionals
-- Law Enforcement
-- Legal Community
-- Mature Adults as Audience
-- Media
-- Men as Audience
-- Military & Veterans as Audience
-- Military Families as Audience
-- Non-Profits & Faith-Based Organizations
-- Older Adults as Audience
-- Parents & Caregivers
-- People with Alcohol Use or Abuse Problems as Audience
-- People with Mental Health Problems as Audience
-- People with Substance Use or Abuse Problems as Audience
-- Policymakers
-- Prevention Professionals
-- Professional Care Providers
-- Program Planners, Administrators, & Project Managers
-- Public Health Professionals
-- Public Officials
-- Regulators
-- Researchers
-- Spanish Speakers
-- Women as Audience
-- Young Adults as Audience
+- Category Filter - uses a dropdown to select. See the "Collections" in the [Taxonomy specifications]({{ site.url}}/resource-center) for child terms.
+- Publication Date - uses the [Date Rage Filter]({{ site.url }}/search#date)
 
-### Resource Population
-- Adolescents as Population Group
-- Adults
-- American Indian and Alaska Native as Population Group
-- At-Risk
-- Children & Youth
-- Children of Parents with Mental Illness
-- College Students as Population Group
-- Disaster Response Workers as Population Group
-- Disaster Survivors as Population Group
-- Families
-- Females
-- Foster Care Children
-- Health Care Workers
-- Homeless
-- Lesbian, Gay, Bisexual & Transgender
-- Low Income
-- Males
-- Mature Adults as Population Group
-- Military Families as Population Group
-- New Substance Users
-- Older Adults as Population Group
-- Parents
-- Patients
-  - *NOTE* OC Team to verify these terms need to be added to Populations rather than using terms under Treatment, Prevention & Recovery (e.g., "Primary Care", "Outpatient Treatment")
-  - Primary Care
-  - Outpatient
-  - Emergency Department
-- People in the Criminal Justice System
-- People with Alcohol Use or Abuse Problems as Population Group
-- People with Developmental Disabilities
-- People with HIV or AIDS
-- People with Mental Health Problems as Population Group
-- People with Physical Disabilities
-- People with Substance Use or Abuse Problems as Population Group
-- Pregnant Women
-- Rural Populations
-- Suburban Populations
-- Trauma Survivors
-- Underserved
-- Urban Populations
-- Women
-- Young Adults as Population Group
+All other filters use the [Multi-Select Filter]({{ site.url }}/search#multi). See the [Taxonomy specifications]({{ site.url}}/resource-center) for child items for each filter
+- Report Type
+- Population
+- Source
+- Substances
+- Conditions
 
-### Treatment, Prevention, & Recovery
-- 12 Step Programs
-- Alternative Therapy
-- Assertive Community Treatment
-- Awareness
-- Behavioral Therapy
-- Biomedical Treatment
-- Brief Intervention
-- Brief Treatment
-- Cognitive Behavioral Therapy
-- Cognitive Therapy
-- Community Involvement
-- Counseling
-- Crisis Intervention
-- Crisis Services
-- Diagnostic Evaluation
-- Early Intervention
-- Education
-- Health Promotion
-- Housing Services
-- Inpatient Hospitalization
-- Integrated Care
-- Intervention
-- Medication-Assisted Treatment
-- Mental Health Promotion
-- Mental Health Screening
-- Outpatient Treatment
-- Pain Management
-- Pastoral Counseling
-- Patient Assessment
-- Peer Support
-- Prevention
-- Primary Care
-- Psychological First Aid
-- Recovery
-- Recovery Support
-- Referral to Treatment
-- Relapse Prevention
-- Resilience
-- Screening Tool
-- Self-Help
-- Stress Prevention & Management
-- Suicide Prevention
-- Trauma-Informed Care
-- Treatment
-- Treatment Planning
 
-### Professional & Research Topics
-- Access to Care
-- Appropriateness
-- Continuous Quality Improvement
-- Credentialing
-- Cultural Competence
-- Disaster Behavioral Health Information Series
-- Disaster Mitigation
-- Disaster Preparedness & Recovery
-- Evidence-Based Practices
-- Health Care System
-- Health Disparities
-- Health Reform
-- Managed Care
-- Patient Rights
-- Planning
-- Practice Guidelines
-- Prevention Models
-- Process Improvement
-- Program Evaluation
-- Recovery Models
-- Research & Methodology
-- Risk & Protective Factors
-- Service Coordination
-- Social Marketing
-- Systems of Care
-- Technology Implementation
-- Treatment Facility Characteristics
-- Workforce Development
-- Workplace Trends
+<a href="search"></a>
+## Search Header
+![search header](../assets/img/resource-center/search-header.png)
 
-### Resource Type
-- Data Reports
-- Evidence Review
-- External Resource
-- Fact Sheet
-- Guide
-- Screening Tool
-- Toolkit
+Search header contains:
+1. Section Title - H3
+2. Sort - OnSelect, system displays the result set in the order that matches the users choice
+  - Featured
+  - Most Relevant
+  - Most Recent
+  - Oldest
+3. View - OnSelect, system displays the number of items in the result set that matches the users choice
+  - 15 (default)
+  - 50
+  - 100
 
-### Authoring Organization
-Note: Authoring organizations are the agency, group, or center that creates or publishes the resource.
-- Agency for Healthcare Research and Quality (AHRQ)
-- American Society of Addiction Medicine (ASAM)
-- Center for Mental Health Services (CMHS)
-- Centers for Disease Control and Prevention (CDC)
-- Department of Veterans Affairs (VA)
-- National Association of Drug Court Professionals (NADCP)
-- National Institute of Mental Health (NIMH)
-- National Institute on Alcohol Abuse and Alcoholism (NIAAA)
-- National Institute on Drug Abuse (NIDA)
-- National Institutes of Health (NIH)
-- Specialty Council for SMI Psychology
-- Substance Abuse and Mental Health Administration (SAMHSA)
-- Suicide Prevention Resource Center (SPRC)
-- University of Colorado Boulder
+
+<a href="mobile"></a>
+## Mobile Search and Filter Accordion
+On Small screens, search, filters, sort and view are all hidden behind an accordion.
+
+OnClick or OnTap accordion slides to open or closed state and icon displays new state
+_see [accordions]({{ site.url }}/accordion) for more information_
+
+| *filter in closed state* ![filter closed](../assets/img/resource-center/mobile-filter-closed.png) | *filter in open state* ![filter closed](../assets/img/resource-center/mobile-filter-open.png) |
+
+
+
+<a href="item"></a>
+## List Item
+Each return item contains:
+1. Resource Title - H3 - links to source
+2. Sub-title - H6 (optional)
+3. Publication Date - body text
+4. Resource Description - body text
+5. CTA - url link to source - content =  "Get this Resource"
+- for 508 accessbility - add aria-label to "Get this {title}"
+6. Featured Thumbnail -
+  - image should be authored at 750 pixels then resized for use.
+    - 25% of container on large screen
+    - 100% of width of container on small screens
+  - for 508 accessibilty - images are for display only and alt text should be set to null.
+
+**Examples**
+
+View On Abstract
+- [EBPRC examples](https://share.goabstract.com/c4c8d08c-9e66-40f6-835d-2d6fbc0d1aea?sectionId=fcc83cb1-766d-40c7-bd40-9df9dd3fe411) 
+- [DBHIS examples](https://share.goabstract.com/c4c8d08c-9e66-40f6-835d-2d6fbc0d1aea?sectionId=6ad14633-e467-44b9-a312-b57be092c439)
