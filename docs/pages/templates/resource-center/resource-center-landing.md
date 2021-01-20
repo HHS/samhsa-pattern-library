@@ -2,7 +2,7 @@
 layout: page
 title: Resource Center Landing Template
 category: templates
-permalink: "/resource-center-landing/"
+permalink: "/resource-center/"
 ---
 
 The Resource Center experience was created for programs and centers to house their content and resources. The experience is meant to create a common structure that is easier to manage for both authoring and development, but also to create a consistent user experience. The first two resources making use of this experience are the Evidence Based Practices Resource Center (EBRPC) and Disaster Behavioral Health Information Series (DBHIS).
